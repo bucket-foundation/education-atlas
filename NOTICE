@@ -1,0 +1,32 @@
+education-atlas
+===============
+
+A data-grounded map of educational problems by country and level, measured
+against the UN Sustainable Development Goal 4 (Quality Education) framework.
+
+Author:    Gianangelo Dichio
+Publisher: bucket-foundation (https://bucket.foundation)
+License:   MIT (code) / CC-BY-4.0 (published datasets)
+
+This is Bucket Foundation's founding research: grounding the mission to reform
+education in authoritative, traceable evidence rather than opinion.
+
+Data sources retain their own terms. education-atlas stores provenance
+(source, source_id, source_url, as_of) on every observation so each fact is
+attributable to its origin. Source attributions:
+
+  - World Bank EdStats         -- The World Bank (CC-BY-4.0)
+                                  https://data.worldbank.org
+  - UNESCO Institute for       -- UNESCO UIS (terms per uis.unesco.org)
+    Statistics (UIS)              https://uis.unesco.org
+  - Our World in Data          -- OWID (CC-BY-4.0; republishes cited sources)
+                                  https://ourworldindata.org
+  - OECD PISA 2022 Results     -- OECD (PISA 2022, Volume I)
+                                  https://www.oecd.org/pisa
+
+The framework (problem categories and benchmarks) follows UN SDG 4 targets and
+the Education 2030 / Incheon Framework for Action. Benchmark provenance is
+documented per indicator in edu/indicators.py.
+
+Published datasets are intended to become citable Bucket Foundation canon
+artifacts for the education-reform vertical.

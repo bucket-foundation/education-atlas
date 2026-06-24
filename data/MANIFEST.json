@@ -1,0 +1,114 @@
+{
+  "name": "education-atlas",
+  "description": "A data-grounded map of educational problems by country and level, measured against SDG 4 benchmarks.",
+  "schema_version": "0.1.0",
+  "generated_at": "2026-06-24T23:10:48Z",
+  "license": "MIT (code) / CC-BY-4.0 (data)",
+  "publisher": "bucket-foundation",
+  "framework": "UN SDG 4 (Quality Education)",
+  "datasets": [
+    {
+      "table": "observation",
+      "path": "data/processed/observation.parquet",
+      "schema_version": "0.1.0",
+      "row_count": 78326,
+      "columns": [
+        "obs_id",
+        "country_code",
+        "indicator_code",
+        "category",
+        "level",
+        "year",
+        "value",
+        "unit",
+        "source",
+        "source_id",
+        "source_url",
+        "as_of"
+      ],
+      "sources": [
+        "oecd_pisa",
+        "owid",
+        "unesco",
+        "worldbank"
+      ],
+      "as_of": "2026-06-24T23:10:46Z"
+    },
+    {
+      "table": "country",
+      "path": "data/processed/country.parquet",
+      "schema_version": "0.1.0",
+      "row_count": 298,
+      "columns": [
+        "country_code",
+        "iso2",
+        "name",
+        "region",
+        "income_group",
+        "capital",
+        "longitude",
+        "latitude",
+        "source",
+        "source_id",
+        "source_url",
+        "as_of"
+      ],
+      "sources": [
+        "atlas",
+        "worldbank"
+      ],
+      "as_of": "2026-06-24T23:10:45Z"
+    },
+    {
+      "table": "indicator",
+      "path": "data/processed/indicator.parquet",
+      "schema_version": "0.1.0",
+      "row_count": 30,
+      "columns": [
+        "indicator_code",
+        "name",
+        "category",
+        "level",
+        "unit",
+        "direction",
+        "benchmark",
+        "benchmark_note",
+        "description",
+        "source"
+      ],
+      "sources": [
+        "oecd_pisa",
+        "owid",
+        "unesco",
+        "worldbank"
+      ],
+      "as_of": null
+    },
+    {
+      "table": "problem",
+      "path": "data/processed/problem.parquet",
+      "schema_version": "0.1.0",
+      "row_count": 5036,
+      "columns": [
+        "problem_id",
+        "country_code",
+        "category",
+        "level",
+        "indicator_code",
+        "latest_year",
+        "latest_value",
+        "benchmark",
+        "gap",
+        "gap_pct",
+        "peer_median",
+        "peer_gap",
+        "trend_slope",
+        "severity",
+        "flags",
+        "as_of"
+      ],
+      "sources": [],
+      "as_of": "2026-06-24T23:10:46Z"
+    }
+  ]
+}

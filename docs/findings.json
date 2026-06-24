@@ -1,0 +1,359 @@
+{
+  "oos_primary_world": 51160832.04652977,
+  "oos_primary_world_method": "sum of latest available country values (lower bound)",
+  "oos_lsec_world": 61195944.0,
+  "oos_lsec_world_year": 2019,
+  "learning_poverty_world": 48.2518588868298,
+  "learning_poverty_lic": null,
+  "learning_poverty_ssa": 86.4914226553518,
+  "edu_spend_gdp_world": 3.56927475138052,
+  "countries_below_4pct_gdp": 92,
+  "countries_with_spend_data": 200,
+  "adult_literacy_world": 87.7399978637695,
+  "severity_by_category": {
+    "skills": 39.6,
+    "access": 31.4,
+    "digital": 30.9,
+    "learning": 28.6,
+    "completion": 19.4,
+    "financing": 19.2,
+    "equity": 18.6,
+    "infrastructure": 17.4,
+    "literacy": 13.5,
+    "teachers": 10.1
+  },
+  "severity_by_level": {
+    "pre_primary": 39.6,
+    "lower_secondary": 37.0,
+    "all": 27.3,
+    "tertiary": 22.7,
+    "primary": 21.3,
+    "secondary": 14.0,
+    "adult": 13.5
+  },
+  "dominant_problem_per_level": {
+    "primary": {
+      "indicator_code": "SE.PRM.UNER",
+      "mean_severity": 49.9
+    },
+    "lower_secondary": {
+      "indicator_code": "UIS.OFST.2",
+      "mean_severity": 48.3
+    },
+    "tertiary": {
+      "indicator_code": "SE.ENR.TERT.FM.ZS",
+      "mean_severity": 40.3
+    },
+    "all": {
+      "indicator_code": "SL.UEM.NEET.ZS",
+      "mean_severity": 39.6
+    },
+    "pre_primary": {
+      "indicator_code": "SE.PRE.ENRR",
+      "mean_severity": 39.6
+    },
+    "secondary": {
+      "indicator_code": "SE.SEC.NENR",
+      "mean_severity": 30.6
+    },
+    "adult": {
+      "indicator_code": "SE.ADT.LITR.ZS",
+      "mean_severity": 16.9
+    }
+  },
+  "worst_countries_per_category": {
+    "access": [
+      {
+        "country": "SOM",
+        "name": "Somalia, Fed. Rep.",
+        "severity": 84.8
+      },
+      {
+        "country": "SSD",
+        "name": "South Sudan",
+        "severity": 69.1
+      },
+      {
+        "country": "GNQ",
+        "name": "Equatorial Guinea",
+        "severity": 61.8
+      },
+      {
+        "country": "BHS",
+        "name": "Bahamas, The",
+        "severity": 58.3
+      },
+      {
+        "country": "MRT",
+        "name": "Mauritania",
+        "severity": 53.2
+      }
+    ],
+    "completion": [
+      {
+        "country": "SSD",
+        "name": "South Sudan",
+        "severity": 76.6
+      },
+      {
+        "country": "AGO",
+        "name": "Angola",
+        "severity": 71.2
+      },
+      {
+        "country": "NER",
+        "name": "Niger",
+        "severity": 67.9
+      },
+      {
+        "country": "UGA",
+        "name": "Uganda",
+        "severity": 59.3
+      },
+      {
+        "country": "CAF",
+        "name": "Central African Republic",
+        "severity": 57.3
+      }
+    ],
+    "learning": [
+      {
+        "country": "NGA",
+        "name": "Nigeria",
+        "severity": 75.5
+      },
+      {
+        "country": "HTI",
+        "name": "Haiti",
+        "severity": 70.9
+      },
+      {
+        "country": "TUV",
+        "name": "Tuvalu",
+        "severity": 70.1
+      },
+      {
+        "country": "ZAF",
+        "name": "South Africa",
+        "severity": 66.0
+      },
+      {
+        "country": "GHA",
+        "name": "Ghana",
+        "severity": 65.8
+      }
+    ],
+    "equity": [
+      {
+        "country": "SOM",
+        "name": "Somalia, Fed. Rep.",
+        "severity": 66.5
+      },
+      {
+        "country": "MCO",
+        "name": "Monaco",
+        "severity": 60.3
+      },
+      {
+        "country": "AFG",
+        "name": "Afghanistan",
+        "severity": 58.8
+      },
+      {
+        "country": "BIH",
+        "name": "Bosnia and Herzegovina",
+        "severity": 56.6
+      },
+      {
+        "country": "SSD",
+        "name": "South Sudan",
+        "severity": 53.0
+      }
+    ],
+    "financing": [
+      {
+        "country": "PNG",
+        "name": "Papua New Guinea",
+        "severity": 82.2
+      },
+      {
+        "country": "NGA",
+        "name": "Nigeria",
+        "severity": 78.1
+      },
+      {
+        "country": "SSD",
+        "name": "South Sudan",
+        "severity": 70.5
+      },
+      {
+        "country": "LBN",
+        "name": "Lebanon",
+        "severity": 65.2
+      },
+      {
+        "country": "LAO",
+        "name": "Lao PDR",
+        "severity": 63.2
+      }
+    ],
+    "teachers": [
+      {
+        "country": "MWI",
+        "name": "Malawi",
+        "severity": 50.9
+      },
+      {
+        "country": "GNB",
+        "name": "Guinea-Bissau",
+        "severity": 48.3
+      },
+      {
+        "country": "FSM",
+        "name": "Micronesia, Fed. Sts.",
+        "severity": 47.9
+      },
+      {
+        "country": "CAF",
+        "name": "Central African Republic",
+        "severity": 47.2
+      },
+      {
+        "country": "TCD",
+        "name": "Chad",
+        "severity": 44.8
+      }
+    ],
+    "literacy": [
+      {
+        "country": "SSD",
+        "name": "South Sudan",
+        "severity": 75.6
+      },
+      {
+        "country": "TCD",
+        "name": "Chad",
+        "severity": 67.7
+      },
+      {
+        "country": "GIN",
+        "name": "Guinea",
+        "severity": 63.8
+      },
+      {
+        "country": "MLI",
+        "name": "Mali",
+        "severity": 61.1
+      },
+      {
+        "country": "NER",
+        "name": "Niger",
+        "severity": 58.7
+      }
+    ],
+    "infrastructure": [
+      {
+        "country": "NIC",
+        "name": "Nicaragua",
+        "severity": 92.4
+      },
+      {
+        "country": "LSO",
+        "name": "Lesotho",
+        "severity": 90.0
+      },
+      {
+        "country": "AGO",
+        "name": "Angola",
+        "severity": 90.0
+      },
+      {
+        "country": "GIN",
+        "name": "Guinea",
+        "severity": 86.1
+      },
+      {
+        "country": "NER",
+        "name": "Niger",
+        "severity": 79.5
+      }
+    ],
+    "digital": [
+      {
+        "country": "NIC",
+        "name": "Nicaragua",
+        "severity": 91.5
+      },
+      {
+        "country": "GAB",
+        "name": "Gabon",
+        "severity": 90.0
+      },
+      {
+        "country": "DZA",
+        "name": "Algeria",
+        "severity": 90.0
+      },
+      {
+        "country": "NRU",
+        "name": "Nauru",
+        "severity": 90.0
+      },
+      {
+        "country": "FSM",
+        "name": "Micronesia, Fed. Sts.",
+        "severity": 89.9
+      }
+    ],
+    "skills": [
+      {
+        "country": "BLR",
+        "name": "Belarus",
+        "severity": 63.1
+      },
+      {
+        "country": "GUY",
+        "name": "Guyana",
+        "severity": 59.0
+      },
+      {
+        "country": "NRU",
+        "name": "Nauru",
+        "severity": 57.1
+      },
+      {
+        "country": "VUT",
+        "name": "Vanuatu",
+        "severity": 54.2
+      },
+      {
+        "country": "SOM",
+        "name": "Somalia, Fed. Rep.",
+        "severity": 53.3
+      }
+    ]
+  },
+  "learning_poverty_by_region": {
+    "Sub-Saharan Africa": 86.5,
+    "South Asia": 55.8,
+    "Latin America & Caribbean": 52.3,
+    "Middle East & N. Africa": 69.3,
+    "East Asia & Pacific": 32.4,
+    "Europe & Central Asia": 8.6
+  },
+  "countries_gender_gap_secondary": 51,
+  "n_observations": 78326,
+  "n_countries": 219,
+  "n_indicators": 30,
+  "year_min": 1870,
+  "year_max": 2024,
+  "sources": [
+    "oecd_pisa",
+    "owid",
+    "unesco",
+    "worldbank"
+  ],
+  "lic_with_lp_data": 11,
+  "n_lic": 25,
+  "pisa_countries": 67
+}

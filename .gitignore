@@ -1,0 +1,39 @@
+# Raw source caches (idempotent re-downloads -- never commit, rebuilt by ingest)
+data/raw/
+
+# DuckDB build artifact (rebuilt from parquet by scripts/build_db.py)
+*.duckdb
+*.duckdb.wal
+
+# Heavy processed parquet -- commit only the small published sample under
+# data/processed/sample/ (force-added). The full tables are rebuilt from raw.
+data/processed/*.parquet
+!data/processed/sample/*.parquet
+
+# Rendered report PDF (rebuilt from docs/EDUCATION_PROBLEMS.md by weasyprint)
+docs/EDUCATION_PROBLEMS.pdf
+
+# Secrets / env -- never commit
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials.json
+.nucleus/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
