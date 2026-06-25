@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "title": "Knowledge access on the Age x Knowledge-depth grid",
+    "generated_from": "education-atlas data/processed + research-atlas slim DB",
+    "depth_scale": {
+      "L0": "basic literacy/numeracy",
+      "L1": "K-12/secondary",
+      "L2": "undergraduate",
+      "L3": "graduate/professional",
+      "L4": "frontier / read primary research",
+      "L5": "producing new knowledge"
+    },
+    "axes_are_constructed": true,
+    "note": "Depth ladder L0-L5 and age bins are a constructed analytical frame defined in scale.py; access proxies are real data."
+  },
+  "world_access_by_depth": {
+    "L0": 82.5,
+    "L1": 62.375,
+    "L2": 37.375,
+    "L3": 8.05,
+    "L4": 0.1406,
+    "L5": 0.0633
+  },
+  "age_depth_matrix": {
+    "L0": {
+      "0-5": 82.5,
+      "5-18": 82.5,
+      "18-22": 82.5,
+      "22-65": 82.5,
+      "65+": 82.5
+    },
+    "L1": {
+      "0-5": null,
+      "5-18": 62.375,
+      "18-22": 62.375,
+      "22-65": 62.375,
+      "65+": 62.375
+    },
+    "L2": {
+      "0-5": null,
+      "5-18": null,
+      "18-22": 37.375,
+      "22-65": 37.375,
+      "65+": 37.375
+    },
+    "L3": {
+      "0-5": null,
+      "5-18": null,
+      "18-22": null,
+      "22-65": 8.05,
+      "65+": 8.05
+    },
+    "L4": {
+      "0-5": null,
+      "5-18": null,
+      "18-22": 0.1406,
+      "22-65": 0.1406,
+      "65+": 0.1406
+    },
+    "L5": {
+      "0-5": null,
+      "5-18": null,
+      "18-22": null,
+      "22-65": 0.0633,
+      "65+": 0.0633
+    }
+  },
+  "access_by_depth_and_income": {
+    "High income": {
+      "L0": 97.2,
+      "L1": 88.8,
+      "L2": 68.8,
+      "L3": 20.6,
+      "L4": 0.415,
+      "L5": 0.1867
+    },
+    "Upper middle income": {
+      "L0": 94.4,
+      "L1": 76.8,
+      "L2": 49.1,
+      "L3": 8.8,
+      "L4": 0.115,
+      "L5": 0.0518
+    },
+    "Lower middle income": {
+      "L0": 79.7,
+      "L1": 54.7,
+      "L2": 21.9,
+      "L3": 2.2,
+      "L4": 0.027,
+      "L5": 0.0121
+    },
+    "Low income": {
+      "L0": 58.7,
+      "L1": 29.2,
+      "L2": 9.7,
+      "L3": 0.6,
+      "L4": 0.0055,
+      "L5": 0.0025
+    }
+  },
+  "real_income_indicators": {
+    "L0_adult_literacy": {
+      "High income": 97.2,
+      "Low income": 58.7,
+      "Lower middle income": 79.7,
+      "Upper middle income": 94.4
+    },
+    "L1_secondary_ner": {
+      "High income": 88.8,
+      "Low income": 29.2,
+      "Lower middle income": 54.7,
+      "Upper middle income": 76.8
+    },
+    "L2_tertiary_ger": {
+      "High income": 68.8,
+      "Low income": 9.7,
+      "Lower middle income": 21.9,
+      "Upper middle income": 49.1
+    },
+    "learning_poverty": {
+      "High income": 14.2,
+      "Low income": 89.8,
+      "Lower middle income": 70.4,
+      "Upper middle income": 42.2
+    },
+    "pre_primary_ger": {
+      "High income": 86.1,
+      "Low income": 23.7,
+      "Lower middle income": 46.4,
+      "Upper middle income": 64.8
+    },
+    "primary_ner": {
+      "High income": 94.2,
+      "Low income": 76.7,
+      "Lower middle income": 87.5,
+      "Upper middle income": 91.1
+    }
+  },
+  "solution_density": {
+    "source": "documented prior (no solutions.csv present)",
+    "estimated": true,
+    "grid": {
+      "L0": {
+        "0-5": 12,
+        "5-18": 20,
+        "18-22": 4,
+        "22-65": 8,
+        "65+": 2
+      },
+      "L1": {
+        "0-5": 0,
+        "5-18": 38,
+        "18-22": 6,
+        "22-65": 6,
+        "65+": 1
+      },
+      "L2": {
+        "0-5": 0,
+        "5-18": 2,
+        "18-22": 30,
+        "22-65": 14,
+        "65+": 1
+      },
+      "L3": {
+        "0-5": 0,
+        "5-18": 0,
+        "18-22": 3,
+        "22-65": 9,
+        "65+": 0
+      },
+      "L4": {
+        "0-5": 0,
+        "5-18": 0,
+        "18-22": 1,
+        "22-65": 2,
+        "65+": 0
+      },
+      "L5": {
+        "0-5": 0,
+        "5-18": 0,
+        "18-22": 0,
+        "22-65": 1,
+        "65+": 0
+      }
+    }
+  },
+  "frontier_participation": {
+    "world_researchers_per_million": 1360.0,
+    "world_frontier_pct": 0.136,
+    "researchers_per_million_by_income": {
+      "High income": 4150.0,
+      "Upper middle income": 1150.0,
+      "Lower middle income": 270.0,
+      "Low income": 55.0,
+      "World": 1360.0
+    },
+    "L4_pct_by_income": {
+      "High income": 0.415,
+      "Upper middle income": 0.115,
+      "Lower middle income": 0.027,
+      "Low income": 0.0055
+    },
+    "L5_pct_by_income": {
+      "High income": 0.1867,
+      "Upper middle income": 0.0518,
+      "Lower middle income": 0.0121,
+      "Low income": 0.0025
+    },
+    "high_vs_low_L4_ratio": 75.5,
+    "corroboration_research_atlas": {
+      "research_atlas_corpus_persons": 1438636,
+      "research_atlas_segment_total": 1165557,
+      "research_atlas_segment_active": 320879
+    }
+  },
+  "depth_ceiling_by_income": {
+    "High income": "L2",
+    "Upper middle income": "L1",
+    "Lower middle income": "L1",
+    "Low income": "L0"
+  },
+  "internet_by_age": {
+    "0-5": 0.0,
+    "5-18": 60.0,
+    "18-22": 75.0,
+    "22-65": 65.0,
+    "65+": 40.0
+  },
+  "estimates": {
+    "L3_graduate": "tertiary GER * GRAD_SHARE_OF_TERTIARY; anchor OECD EAG graduate-entry shares (~0.30 HIC -> 0.06 LIC). REAL base (tertiary GER) x ESTIMATED multiplier.",
+    "L4_frontier": "UNESCO UIS researchers-per-million (SP.POP.SCIE.RD.P6) / 1e6 * 100. REAL anchor (group means documented in code); expressed as % of population.",
+    "L5_production": "L4 * 0.45 (share of researchers actively publishing). ESTIMATED multiplier on the REAL L4 anchor.",
+    "internet_by_age": "ITU Facts & Figures 2023 global online shares by age band. REAL anchor, coarse global bins.",
+    "solution_density": "documented prior (no solutions.csv present)  ESTIMATED density prior.",
+    "age_depth_gating": "AGE_DEPTH_OPEN in scale.py is a CONSTRUCTED structural mask (which life-stage a depth is normally reached in)."
+  },
+  "sources": {
+    "enrollment_literacy": "World Bank EdStats via education-atlas data/processed/observation.parquet (latest per country).",
+    "researchers_per_million": "UNESCO Institute for Statistics / World Bank SP.POP.SCIE.RD.P6 (latest ~2021-2023).",
+    "research_corpus": "research-atlas research_atlas_slim.duckdb (researcher_segment, stats).",
+    "internet_by_age": "ITU, Measuring digital development: Facts and Figures 2023.",
+    "graduate_share": "OECD Education at a Glance (graduate-entry rates)."
+  }
+}
