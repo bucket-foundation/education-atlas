@@ -1,0 +1,2745 @@
+{
+  "meta": {
+    "title": "Geographic + demographic dimension of the knowledge-access gradient",
+    "extends": "results.json / results_expansion.json (same scale.py ladder)",
+    "frontier_anchor": "SP.POP.SCIE.RD.P6 (researchers per million) = L4/L5 anchor",
+    "generated_from": "World Bank cache data/raw/worldbank/ (3 new per-country series fetched live + cached) + research-atlas slim DB",
+    "n_real_countries": 217
+  },
+  "frontier_access_index": {
+    "per_country": {
+      "AGO": {
+        "name": "Angola",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 25.67,
+        "components": {
+          "researchers_per_million": 32.87,
+          "tertiary_ger": 9.95,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 40.7
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 18.9,
+        "researchers_year": 2016
+      },
+      "ALB": {
+        "name": "Albania",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 71.33,
+        "components": {
+          "researchers_per_million": 66.59,
+          "tertiary_ger": 84.15,
+          "tertiary_completion": 43.22,
+          "internet_users_pct": 85.86
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 428.7,
+        "researchers_year": 2022
+      },
+      "ARE": {
+        "name": "United Arab Emirates",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "High income",
+        "index": 72.76,
+        "components": {
+          "researchers_per_million": 86.39,
+          "tertiary_ger": 63.74,
+          "tertiary_completion": 15.11,
+          "internet_users_pct": 100.0
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2606.8,
+        "researchers_year": 2021
+      },
+      "ARG": {
+        "name": "Argentina",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 76.31,
+        "components": {
+          "researchers_per_million": 78.86,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 12.18,
+          "internet_users_pct": 89.67
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1312.8,
+        "researchers_year": 2023
+      },
+      "ARM": {
+        "name": "Armenia",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 66.16,
+        "components": {
+          "researchers_per_million": 75.22,
+          "tertiary_ger": 52.77,
+          "tertiary_completion": 44.05,
+          "internet_users_pct": 81.34
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 942.2,
+        "researchers_year": 2024
+      },
+      "ASM": {
+        "name": "American Samoa",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 60.46,
+        "components": {
+          "researchers_per_million": 51.3,
+          "tertiary_ger": 66.18,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 90.18
+        },
+        "imputed": {
+          "tertiary_ger": true,
+          "tertiary_completion": true,
+          "internet_users_pct": true
+        },
+        "researchers_per_million_raw": 105.8,
+        "researchers_year": 2005
+      },
+      "AUS": {
+        "name": "Australia",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 91.04,
+        "components": {
+          "researchers_per_million": 92.55,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 65.31,
+          "internet_users_pct": 96.13
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 4568.6,
+        "researchers_year": 2010
+      },
+      "AUT": {
+        "name": "Austria",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 86.02,
+        "components": {
+          "researchers_per_million": 96.65,
+          "tertiary_ger": 92.61,
+          "tertiary_completion": 34.79,
+          "internet_users_pct": 94.92
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 6633.6,
+        "researchers_year": 2023
+      },
+      "AZE": {
+        "name": "Azerbaijan",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 64.19,
+        "components": {
+          "researchers_per_million": 81.46,
+          "tertiary_ger": 41.34,
+          "tertiary_completion": 21.2,
+          "internet_users_pct": 90.44
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1662.5,
+        "researchers_year": 2024
+      },
+      "BDI": {
+        "name": "Burundi",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 17.72,
+        "components": {
+          "researchers_per_million": 34.66,
+          "tertiary_ger": 6.03,
+          "tertiary_completion": 4.18,
+          "internet_users_pct": 8.6
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 22.5,
+        "researchers_year": 2018
+      },
+      "BEL": {
+        "name": "Belgium",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 85.36,
+        "components": {
+          "researchers_per_million": 95.53,
+          "tertiary_ger": 82.15,
+          "tertiary_completion": 49.72,
+          "internet_users_pct": 95.78
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5990.1,
+        "researchers_year": 2023
+      },
+      "BFA": {
+        "name": "Burkina Faso",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 25.35,
+        "components": {
+          "researchers_per_million": 42.42,
+          "tertiary_ger": 10.04,
+          "tertiary_completion": 1.48,
+          "internet_users_pct": 28.25
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 46.6,
+        "researchers_year": 2010
+      },
+      "BGR": {
+        "name": "Bulgaria",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 75.32,
+        "components": {
+          "researchers_per_million": 85.49,
+          "tertiary_ger": 69.55,
+          "tertiary_completion": 48.32,
+          "internet_users_pct": 82.44
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2400.6,
+        "researchers_year": 2023
+      },
+      "BHR": {
+        "name": "Bahrain",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "High income",
+        "index": 68.56,
+        "components": {
+          "researchers_per_million": 74.08,
+          "tertiary_ger": 58.37,
+          "tertiary_completion": 28.91,
+          "internet_users_pct": 100.0
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 848.9,
+        "researchers_year": 2024
+      },
+      "BIH": {
+        "name": "Bosnia and Herzegovina",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 62.13,
+        "components": {
+          "researchers_per_million": 72.05,
+          "tertiary_ger": 45.5,
+          "tertiary_completion": 31.41,
+          "internet_users_pct": 86.1
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 705.2,
+        "researchers_year": 2024
+      },
+      "BLR": {
+        "name": "Belarus",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 78.65,
+        "components": {
+          "researchers_per_million": 80.81,
+          "tertiary_ger": 70.11,
+          "tertiary_completion": 66.32,
+          "internet_users_pct": 94.26
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1567.8,
+        "researchers_year": 2024
+      },
+      "BOL": {
+        "name": "Bolivia",
+        "region": "Latin America & Caribbean",
+        "income_group": "Lower middle income",
+        "index": 41.58,
+        "components": {
+          "researchers_per_million": 45.69,
+          "tertiary_ger": 21.87,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 79.7
+        },
+        "imputed": {
+          "tertiary_ger": true,
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 63.1,
+        "researchers_year": 2021
+      },
+      "BRA": {
+        "name": "Brazil",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 68.29,
+        "components": {
+          "researchers_per_million": 74.76,
+          "tertiary_ger": 69.73,
+          "tertiary_completion": 27.05,
+          "internet_users_pct": 84.46
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 903.2,
+        "researchers_year": 2014
+      },
+      "BRN": {
+        "name": "Brunei Darussalam",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 59.67,
+        "components": {
+          "researchers_per_million": 68.41,
+          "tertiary_ger": 36.42,
+          "tertiary_completion": 26.29,
+          "internet_users_pct": 96.3
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 506.2,
+        "researchers_year": 2022
+      },
+      "BTN": {
+        "name": "Bhutan",
+        "region": "South Asia",
+        "income_group": "Lower middle income",
+        "index": 47.43,
+        "components": {
+          "researchers_per_million": 60.07,
+          "tertiary_ger": 13.01,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 91.28
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 236.3,
+        "researchers_year": 2024
+      },
+      "BWA": {
+        "name": "Botswana",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Upper middle income",
+        "index": 40.8,
+        "components": {
+          "researchers_per_million": 57.08,
+          "tertiary_ger": 21.41,
+          "tertiary_completion": 7.49,
+          "internet_users_pct": 57.46
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 179.8,
+        "researchers_year": 2013
+      },
+      "CAN": {
+        "name": "Canada",
+        "region": "North America",
+        "income_group": "High income",
+        "index": 81.95,
+        "components": {
+          "researchers_per_million": 94.84,
+          "tertiary_ger": 76.27,
+          "tertiary_completion": 40.49,
+          "internet_users_pct": 94.35
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5624.3,
+        "researchers_year": 2022
+      },
+      "CHE": {
+        "name": "Switzerland",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 84.28,
+        "components": {
+          "researchers_per_million": 95.74,
+          "tertiary_ger": 73.54,
+          "tertiary_completion": 54.2,
+          "internet_users_pct": 97.34
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 6108.0,
+        "researchers_year": 2023
+      },
+      "CHL": {
+        "name": "Chile",
+        "region": "Latin America & Caribbean",
+        "income_group": "High income",
+        "index": 75.3,
+        "components": {
+          "researchers_per_million": 72.08,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 15.65,
+          "internet_users_pct": 95.59
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 707.1,
+        "researchers_year": 2022
+      },
+      "CHN": {
+        "name": "China",
+        "region": "East Asia & Pacific",
+        "income_group": "Upper middle income",
+        "index": 76.28,
+        "components": {
+          "researchers_per_million": 84.06,
+          "tertiary_ger": 76.88,
+          "tertiary_completion": 33.58,
+          "internet_users_pct": 92.0
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2107.3,
+        "researchers_year": 2023
+      },
+      "CIV": {
+        "name": "Cote d'Ivoire",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 31.6,
+        "components": {
+          "researchers_per_million": 45.85,
+          "tertiary_ger": 12.34,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 41.43
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 64.0,
+        "researchers_year": 2005
+      },
+      "COD": {
+        "name": "Congo, Dem. Rep.",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 16.88,
+        "components": {
+          "researchers_per_million": 26.44,
+          "tertiary_ger": 6.38,
+          "tertiary_completion": 5.15,
+          "internet_users_pct": 19.67
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 10.1,
+        "researchers_year": 2015
+      },
+      "COG": {
+        "name": "Congo, Rep.",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 35.25,
+        "components": {
+          "researchers_per_million": 53.29,
+          "tertiary_ger": 10.38,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 47.25
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 127.0,
+        "researchers_year": 2022
+      },
+      "COL": {
+        "name": "Colombia",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 54.37,
+        "components": {
+          "researchers_per_million": 49.57,
+          "tertiary_ger": 59.29,
+          "tertiary_completion": 25.67,
+          "internet_users_pct": 79.35
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 90.2,
+        "researchers_year": 2017
+      },
+      "CPV": {
+        "name": "Cabo Verde",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Upper middle income",
+        "index": 44.33,
+        "components": {
+          "researchers_per_million": 53.11,
+          "tertiary_ger": 24.29,
+          "tertiary_completion": 13.74,
+          "internet_users_pct": 74.74
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 124.9,
+        "researchers_year": 2014
+      },
+      "CRI": {
+        "name": "Costa Rica",
+        "region": "Latin America & Caribbean",
+        "income_group": "High income",
+        "index": 64.46,
+        "components": {
+          "researchers_per_million": 68.44,
+          "tertiary_ger": 55.02,
+          "tertiary_completion": 39.27,
+          "internet_users_pct": 87.17
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 507.8,
+        "researchers_year": 2023
+      },
+      "CUB": {
+        "name": "Cuba",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 61.11,
+        "components": {
+          "researchers_per_million": 84.39,
+          "tertiary_ger": 43.1,
+          "tertiary_completion": 16.53,
+          "internet_users_pct": 70.48
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2171.3,
+        "researchers_year": 2024
+      },
+      "CYP": {
+        "name": "Cyprus",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 79.37,
+        "components": {
+          "researchers_per_million": 81.61,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 25.35,
+          "internet_users_pct": 89.6
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1686.5,
+        "researchers_year": 2023
+      },
+      "CZE": {
+        "name": "Czechia",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 77.64,
+        "components": {
+          "researchers_per_million": 92.4,
+          "tertiary_ger": 66.73,
+          "tertiary_completion": 43.03,
+          "internet_users_pct": 87.69
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 4504.6,
+        "researchers_year": 2023
+      },
+      "DEU": {
+        "name": "Germany",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 82.16,
+        "components": {
+          "researchers_per_million": 95.41,
+          "tertiary_ger": 76.71,
+          "tertiary_completion": 40.76,
+          "internet_users_pct": 93.5
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5926.1,
+        "researchers_year": 2023
+      },
+      "DNK": {
+        "name": "Denmark",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 88.02,
+        "components": {
+          "researchers_per_million": 99.8,
+          "tertiary_ger": 78.96,
+          "tertiary_completion": 56.05,
+          "internet_users_pct": 99.77
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 8837.5,
+        "researchers_year": 2023
+      },
+      "DOM": {
+        "name": "Dominican Republic",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 50.7,
+        "components": {
+          "researchers_per_million": 33.46,
+          "tertiary_ger": 57.65,
+          "tertiary_completion": 31.36,
+          "internet_users_pct": 91.0
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 20.0,
+        "researchers_year": 2022
+      },
+      "DZA": {
+        "name": "Algeria",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Upper middle income",
+        "index": 66.31,
+        "components": {
+          "researchers_per_million": 82.11,
+          "tertiary_ger": 54.43,
+          "tertiary_completion": 29.16,
+          "internet_users_pct": 77.42
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1764.0,
+        "researchers_year": 2024
+      },
+      "ECU": {
+        "name": "Ecuador",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 64.48,
+        "components": {
+          "researchers_per_million": 65.84,
+          "tertiary_ger": 67.89,
+          "tertiary_completion": 38.24,
+          "internet_users_pct": 77.17
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 400.3,
+        "researchers_year": 2014
+      },
+      "EGY": {
+        "name": "Egypt, Arab Rep.",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Lower middle income",
+        "index": 57.83,
+        "components": {
+          "researchers_per_million": 77.12,
+          "tertiary_ger": 37.58,
+          "tertiary_completion": 17.74,
+          "internet_users_pct": 74.65
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1120.2,
+        "researchers_year": 2024
+      },
+      "ESP": {
+        "name": "Spain",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 85.1,
+        "components": {
+          "researchers_per_million": 90.1,
+          "tertiary_ger": 93.77,
+          "tertiary_completion": 43.08,
+          "internet_users_pct": 95.76
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 3653.8,
+        "researchers_year": 2023
+      },
+      "EST": {
+        "name": "Estonia",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 78.89,
+        "components": {
+          "researchers_per_million": 93.1,
+          "tertiary_ger": 65.67,
+          "tertiary_completion": 45.25,
+          "internet_users_pct": 92.24
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 4800.4,
+        "researchers_year": 2023
+      },
+      "FIN": {
+        "name": "Finland",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 92.17,
+        "components": {
+          "researchers_per_million": 99.13,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 58.47,
+          "internet_users_pct": 93.72
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 8314.9,
+        "researchers_year": 2023
+      },
+      "FRA": {
+        "name": "France",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 80.44,
+        "components": {
+          "researchers_per_million": 94.33,
+          "tertiary_ger": 71.53,
+          "tertiary_completion": 47.28,
+          "internet_users_pct": 88.65
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5368.6,
+        "researchers_year": 2023
+      },
+      "FRO": {
+        "name": "Faroe Islands",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 74.42,
+        "components": {
+          "researchers_per_million": 82.48,
+          "tertiary_ger": 66.18,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 97.58
+        },
+        "imputed": {
+          "tertiary_ger": true,
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 1824.7,
+        "researchers_year": 2003
+      },
+      "GBR": {
+        "name": "United Kingdom",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 84.03,
+        "components": {
+          "researchers_per_million": 92.32,
+          "tertiary_ger": 80.41,
+          "tertiary_completion": 52.71,
+          "internet_users_pct": 95.47
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 4472.7,
+        "researchers_year": 2017
+      },
+      "GEO": {
+        "name": "Georgia",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 74.76,
+        "components": {
+          "researchers_per_million": 82.9,
+          "tertiary_ger": 78.27,
+          "tertiary_completion": 35.16,
+          "internet_users_pct": 83.8
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1896.0,
+        "researchers_year": 2024
+      },
+      "GHA": {
+        "name": "Ghana",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 40.98,
+        "components": {
+          "researchers_per_million": 49.23,
+          "tertiary_ger": 21.33,
+          "tertiary_completion": 10.1,
+          "internet_users_pct": 72.18
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 87.5,
+        "researchers_year": 2015
+      },
+      "GMB": {
+        "name": "Gambia, The",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 30.63,
+        "components": {
+          "researchers_per_million": 43.37,
+          "tertiary_ger": 13.48,
+          "tertiary_completion": 0.1,
+          "internet_users_pct": 49.49
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 50.9,
+        "researchers_year": 2018
+      },
+      "GRC": {
+        "name": "Greece",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 86.7,
+        "components": {
+          "researchers_per_million": 94.15,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 45.21,
+          "internet_users_pct": 86.27
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5283.4,
+        "researchers_year": 2023
+      },
+      "GRL": {
+        "name": "Greenland",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 64.6,
+        "components": {
+          "researchers_per_million": 72.0,
+          "tertiary_ger": 66.18,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 69.48
+        },
+        "imputed": {
+          "tertiary_ger": true,
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 701.9,
+        "researchers_year": 2004
+      },
+      "GTM": {
+        "name": "Guatemala",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 23.47,
+        "components": {
+          "researchers_per_million": 9.82,
+          "tertiary_ger": 27.29,
+          "tertiary_completion": 4.52,
+          "internet_users_pct": 60.22
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1.4,
+        "researchers_year": 2023
+      },
+      "GUM": {
+        "name": "Guam",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 62.97,
+        "components": {
+          "researchers_per_million": 62.4,
+          "tertiary_ger": 66.18,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 80.51
+        },
+        "imputed": {
+          "tertiary_ger": true,
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 292.5,
+        "researchers_year": 2005
+      },
+      "HKG": {
+        "name": "Hong Kong SAR, China",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 85.26,
+        "components": {
+          "researchers_per_million": 95.31,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 19.87,
+          "internet_users_pct": 95.76
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5873.7,
+        "researchers_year": 2024
+      },
+      "HND": {
+        "name": "Honduras",
+        "region": "Latin America & Caribbean",
+        "income_group": "Lower middle income",
+        "index": 42.1,
+        "components": {
+          "researchers_per_million": 57.56,
+          "tertiary_ger": 23.32,
+          "tertiary_completion": 10.13,
+          "internet_users_pct": 58.62
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 187.8,
+        "researchers_year": 2019
+      },
+      "HRV": {
+        "name": "Croatia",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 77.78,
+        "components": {
+          "researchers_per_million": 85.67,
+          "tertiary_ger": 81.18,
+          "tertiary_completion": 43.24,
+          "internet_users_pct": 83.63
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2440.3,
+        "researchers_year": 2023
+      },
+      "HUN": {
+        "name": "Hungary",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 75.81,
+        "components": {
+          "researchers_per_million": 92.55,
+          "tertiary_ger": 60.52,
+          "tertiary_completion": 32.71,
+          "internet_users_pct": 93.78
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 4567.1,
+        "researchers_year": 2023
+      },
+      "IDN": {
+        "name": "Indonesia",
+        "region": "East Asia & Pacific",
+        "income_group": "Upper middle income",
+        "index": 55.24,
+        "components": {
+          "researchers_per_million": 65.7,
+          "tertiary_ger": 44.88,
+          "tertiary_completion": 21.2,
+          "internet_users_pct": 72.78
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 395.3,
+        "researchers_year": 2020
+      },
+      "IND": {
+        "name": "India",
+        "region": "South Asia",
+        "income_group": "Lower middle income",
+        "index": 50.22,
+        "components": {
+          "researchers_per_million": 61.08,
+          "tertiary_ger": 34.42,
+          "tertiary_completion": 27.99,
+          "internet_users_pct": 64.94
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 259.3,
+        "researchers_year": 2020
+      },
+      "IRL": {
+        "name": "Ireland",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 83.7,
+        "components": {
+          "researchers_per_million": 95.09,
+          "tertiary_ger": 77.59,
+          "tertiary_completion": 45.55,
+          "internet_users_pct": 97.19
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5752.8,
+        "researchers_year": 2023
+      },
+      "IRN": {
+        "name": "Iran, Islamic Rep.",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Upper middle income",
+        "index": 71.14,
+        "components": {
+          "researchers_per_million": 84.73,
+          "tertiary_ger": 58.68,
+          "tertiary_completion": 36.75,
+          "internet_users_pct": 85.34
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2239.7,
+        "researchers_year": 2021
+      },
+      "IRQ": {
+        "name": "Iraq",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Upper middle income",
+        "index": 44.26,
+        "components": {
+          "researchers_per_million": 56.1,
+          "tertiary_ger": 15.56,
+          "tertiary_completion": 10.9,
+          "internet_users_pct": 81.47
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 164.3,
+        "researchers_year": 2021
+      },
+      "ISL": {
+        "name": "Iceland",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 84.65,
+        "components": {
+          "researchers_per_million": 95.46,
+          "tertiary_ger": 76.52,
+          "tertiary_completion": 51.29,
+          "internet_users_pct": 98.21
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5952.5,
+        "researchers_year": 2023
+      },
+      "ITA": {
+        "name": "Italy",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 77.82,
+        "components": {
+          "researchers_per_million": 87.39,
+          "tertiary_ger": 75.95,
+          "tertiary_completion": 40.21,
+          "internet_users_pct": 89.22
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2855.1,
+        "researchers_year": 2023
+      },
+      "JOR": {
+        "name": "Jordan",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Lower middle income",
+        "index": 61.94,
+        "components": {
+          "researchers_per_million": 69.83,
+          "tertiary_ger": 35.92,
+          "tertiary_completion": 39.39,
+          "internet_users_pct": 95.62
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 576.0,
+        "researchers_year": 2017
+      },
+      "JPN": {
+        "name": "Japan",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 76.52,
+        "components": {
+          "researchers_per_million": 94.81,
+          "tertiary_ger": 64.49,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 85.54
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 5608.6,
+        "researchers_year": 2023
+      },
+      "KAZ": {
+        "name": "Kazakhstan",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 69.66,
+        "components": {
+          "researchers_per_million": 72.84,
+          "tertiary_ger": 53.46,
+          "tertiary_completion": 56.56,
+          "internet_users_pct": 93.39
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 758.0,
+        "researchers_year": 2024
+      },
+      "KEN": {
+        "name": "Kenya",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 36.11,
+        "components": {
+          "researchers_per_million": 65.38,
+          "tertiary_ger": 10.42,
+          "tertiary_completion": 2.4,
+          "internet_users_pct": 34.98
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 384.0,
+        "researchers_year": 2024
+      },
+      "KHM": {
+        "name": "Cambodia",
+        "region": "East Asia & Pacific",
+        "income_group": "Lower middle income",
+        "index": 34.83,
+        "components": {
+          "researchers_per_million": 37.85,
+          "tertiary_ger": 21.44,
+          "tertiary_completion": 4.23,
+          "internet_users_pct": 68.48
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 30.4,
+        "researchers_year": 2015
+      },
+      "KOR": {
+        "name": "Korea, Rep.",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 92.35,
+        "components": {
+          "researchers_per_million": 100.0,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 51.8,
+          "internet_users_pct": 97.9
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 9471.8,
+        "researchers_year": 2023
+      },
+      "KWT": {
+        "name": "Kuwait",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "High income",
+        "index": 60.18,
+        "components": {
+          "researchers_per_million": 54.72,
+          "tertiary_ger": 51.9,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 99.75
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 144.8,
+        "researchers_year": 2024
+      },
+      "LAO": {
+        "name": "Lao PDR",
+        "region": "East Asia & Pacific",
+        "income_group": "Lower middle income",
+        "index": 30.5,
+        "components": {
+          "researchers_per_million": 30.87,
+          "tertiary_ger": 14.88,
+          "tertiary_completion": 8.79,
+          "internet_users_pct": 65.59
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 15.6,
+        "researchers_year": 2002
+      },
+      "LIE": {
+        "name": "Liechtenstein",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 73.22,
+        "components": {
+          "researchers_per_million": 100.0,
+          "tertiary_ger": 46.02,
+          "tertiary_completion": 13.74,
+          "internet_users_pct": 98.26
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 18129.8,
+        "researchers_year": 2023
+      },
+      "LKA": {
+        "name": "Sri Lanka",
+        "region": "South Asia",
+        "income_group": "Lower middle income",
+        "index": 37.81,
+        "components": {
+          "researchers_per_million": 50.07,
+          "tertiary_ger": 20.74,
+          "tertiary_completion": 11.18,
+          "internet_users_pct": 54.59
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 94.5,
+        "researchers_year": 2022
+      },
+      "LSO": {
+        "name": "Lesotho",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 28.86,
+        "components": {
+          "researchers_per_million": 38.48,
+          "tertiary_ger": 9.94,
+          "tertiary_completion": 4.17,
+          "internet_users_pct": 51.8
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 32.2,
+        "researchers_year": 2023
+      },
+      "LTU": {
+        "name": "Lithuania",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 82.17,
+        "components": {
+          "researchers_per_million": 90.25,
+          "tertiary_ger": 75.62,
+          "tertiary_completion": 62.2,
+          "internet_users_pct": 89.16
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 3703.9,
+        "researchers_year": 2023
+      },
+      "LUX": {
+        "name": "Luxembourg",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 64.27,
+        "components": {
+          "researchers_per_million": 94.31,
+          "tertiary_ger": 22.41,
+          "tertiary_completion": 7.95,
+          "internet_users_pct": 98.76
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5359.1,
+        "researchers_year": 2023
+      },
+      "LVA": {
+        "name": "Latvia",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 80.42,
+        "components": {
+          "researchers_per_million": 84.49,
+          "tertiary_ger": 82.92,
+          "tertiary_completion": 49.02,
+          "internet_users_pct": 92.71
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2190.9,
+        "researchers_year": 2023
+      },
+      "MAC": {
+        "name": "Macao SAR, China",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 90.67,
+        "components": {
+          "researchers_per_million": 92.71,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 70.81,
+          "internet_users_pct": 89.83
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 4634.1,
+        "researchers_year": 2024
+      },
+      "MAR": {
+        "name": "Morocco",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Lower middle income",
+        "index": 63.68,
+        "components": {
+          "researchers_per_million": 76.76,
+          "tertiary_ger": 48.18,
+          "tertiary_completion": 17.95,
+          "internet_users_pct": 91.2
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1083.4,
+        "researchers_year": 2016
+      },
+      "MCO": {
+        "name": "Monaco",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 69.76,
+        "components": {
+          "researchers_per_million": 63.04,
+          "tertiary_ger": 77.48,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 99.04
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 309.9,
+        "researchers_year": 2005
+      },
+      "MDA": {
+        "name": "Moldova",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 67.73,
+        "components": {
+          "researchers_per_million": 71.15,
+          "tertiary_ger": 74.71,
+          "tertiary_completion": 34.09,
+          "internet_users_pct": 77.37
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 649.9,
+        "researchers_year": 2024
+      },
+      "MDG": {
+        "name": "Madagascar",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 21.34,
+        "components": {
+          "researchers_per_million": 38.71,
+          "tertiary_ger": 6.15,
+          "tertiary_completion": 3.85,
+          "internet_users_pct": 18.68
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 32.9,
+        "researchers_year": 2018
+      },
+      "MEX": {
+        "name": "Mexico",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 59.53,
+        "components": {
+          "researchers_per_million": 66.83,
+          "tertiary_ger": 48.2,
+          "tertiary_completion": 27.5,
+          "internet_users_pct": 83.12
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 438.2,
+        "researchers_year": 2024
+      },
+      "MKD": {
+        "name": "North Macedonia",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 66.35,
+        "components": {
+          "researchers_per_million": 74.58,
+          "tertiary_ger": 55.01,
+          "tertiary_completion": 26.98,
+          "internet_users_pct": 93.6
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 888.1,
+        "researchers_year": 2024
+      },
+      "MLI": {
+        "name": "Mali",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 23.9,
+        "components": {
+          "researchers_per_million": 36.21,
+          "tertiary_ger": 5.13,
+          "tertiary_completion": 5.14,
+          "internet_users_pct": 36.8
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 26.0,
+        "researchers_year": 2023
+      },
+      "MLT": {
+        "name": "Malta",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "High income",
+        "index": 79.77,
+        "components": {
+          "researchers_per_million": 85.28,
+          "tertiary_ger": 80.53,
+          "tertiary_completion": 45.03,
+          "internet_users_pct": 93.86
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2355.0,
+        "researchers_year": 2023
+      },
+      "MMR": {
+        "name": "Myanmar",
+        "region": "East Asia & Pacific",
+        "income_group": "Lower middle income",
+        "index": 30.94,
+        "components": {
+          "researchers_per_million": 36.99,
+          "tertiary_ger": 20.37,
+          "tertiary_completion": 13.09,
+          "internet_users_pct": 45.45
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 28.0,
+        "researchers_year": 2023
+      },
+      "MNE": {
+        "name": "Montenegro",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 66.11,
+        "components": {
+          "researchers_per_million": 72.93,
+          "tertiary_ger": 55.17,
+          "tertiary_completion": 35.8,
+          "internet_users_pct": 88.88
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 764.4,
+        "researchers_year": 2019
+      },
+      "MNG": {
+        "name": "Mongolia",
+        "region": "East Asia & Pacific",
+        "income_group": "Upper middle income",
+        "index": 69.62,
+        "components": {
+          "researchers_per_million": 69.03,
+          "tertiary_ger": 69.04,
+          "tertiary_completion": 51.46,
+          "internet_users_pct": 85.12
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 535.4,
+        "researchers_year": 2022
+      },
+      "MOZ": {
+        "name": "Mozambique",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 23.34,
+        "components": {
+          "researchers_per_million": 41.91,
+          "tertiary_ger": 7.46,
+          "tertiary_completion": 4.03,
+          "internet_users_pct": 20.53
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 44.4,
+        "researchers_year": 2015
+      },
+      "MUS": {
+        "name": "Mauritius",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Upper middle income",
+        "index": 59.21,
+        "components": {
+          "researchers_per_million": 71.78,
+          "tertiary_ger": 45.78,
+          "tertiary_completion": 29.28,
+          "internet_users_pct": 73.31
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 688.5,
+        "researchers_year": 2024
+      },
+      "MWI": {
+        "name": "Malawi",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 18.89,
+        "components": {
+          "researchers_per_million": 35.85,
+          "tertiary_ger": 2.71,
+          "tertiary_completion": 0.52,
+          "internet_users_pct": 18.96
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 25.2,
+        "researchers_year": 2019
+      },
+      "MYS": {
+        "name": "Malaysia",
+        "region": "East Asia & Pacific",
+        "income_group": "Upper middle income",
+        "index": 62.53,
+        "components": {
+          "researchers_per_million": 78.04,
+          "tertiary_ger": 38.5,
+          "tertiary_completion": 13.9,
+          "internet_users_pct": 98.02
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1218.3,
+        "researchers_year": 2022
+      },
+      "NAM": {
+        "name": "Namibia",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 45.33,
+        "components": {
+          "researchers_per_million": 59.52,
+          "tertiary_ger": 26.11,
+          "tertiary_completion": 13.46,
+          "internet_users_pct": 64.87
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 224.8,
+        "researchers_year": 2022
+      },
+      "NER": {
+        "name": "Niger",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 19.41,
+        "components": {
+          "researchers_per_million": 36.57,
+          "tertiary_ger": 4.15,
+          "tertiary_completion": 4.22,
+          "internet_users_pct": 15.56
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 26.9,
+        "researchers_year": 2013
+      },
+      "NGA": {
+        "name": "Nigeria",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 26.36,
+        "components": {
+          "researchers_per_million": 34.49,
+          "tertiary_ger": 9.74,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 41.21
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 22.1,
+        "researchers_year": 2019
+      },
+      "NLD": {
+        "name": "Netherlands",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 87.39,
+        "components": {
+          "researchers_per_million": 96.53,
+          "tertiary_ger": 86.59,
+          "tertiary_completion": 51.55,
+          "internet_users_pct": 97.01
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 6563.3,
+        "researchers_year": 2023
+      },
+      "NOR": {
+        "name": "Norway",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 90.89,
+        "components": {
+          "researchers_per_million": 97.93,
+          "tertiary_ger": 95.5,
+          "tertiary_completion": 53.62,
+          "internet_users_pct": 99.0
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 7450.6,
+        "researchers_year": 2023
+      },
+      "NPL": {
+        "name": "Nepal",
+        "region": "South Asia",
+        "income_group": "Lower middle income",
+        "index": 33.99,
+        "components": {
+          "researchers_per_million": 45.09,
+          "tertiary_ger": 21.29,
+          "tertiary_completion": 9.13,
+          "internet_users_pct": 46.32
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 59.7,
+        "researchers_year": 2002
+      },
+      "NZL": {
+        "name": "New Zealand",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 82.65,
+        "components": {
+          "researchers_per_million": 94.46,
+          "tertiary_ger": 77.24,
+          "tertiary_completion": 45.65,
+          "internet_users_pct": 93.52
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5435.5,
+        "researchers_year": 2023
+      },
+      "OMN": {
+        "name": "Oman",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "High income",
+        "index": 61.92,
+        "components": {
+          "researchers_per_million": 72.57,
+          "tertiary_ger": 42.23,
+          "tertiary_completion": 21.93,
+          "internet_users_pct": 95.25
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 739.4,
+        "researchers_year": 2024
+      },
+      "PAK": {
+        "name": "Pakistan",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Lower middle income",
+        "index": 43.13,
+        "components": {
+          "researchers_per_million": 67.68,
+          "tertiary_ger": 10.86,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 57.25
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 473.7,
+        "researchers_year": 2023
+      },
+      "PAN": {
+        "name": "Panama",
+        "region": "Latin America & Caribbean",
+        "income_group": "High income",
+        "index": 56.06,
+        "components": {
+          "researchers_per_million": 60.71,
+          "tertiary_ger": 53.69,
+          "tertiary_completion": 25.31,
+          "internet_users_pct": 72.77
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 250.5,
+        "researchers_year": 2024
+      },
+      "PHL": {
+        "name": "Philippines",
+        "region": "East Asia & Pacific",
+        "income_group": "Lower middle income",
+        "index": 53.6,
+        "components": {
+          "researchers_per_million": 63.4,
+          "tertiary_ger": 47.41,
+          "tertiary_completion": 19.55,
+          "internet_users_pct": 67.26
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 320.3,
+        "researchers_year": 2020
+      },
+      "PNG": {
+        "name": "Papua New Guinea",
+        "region": "East Asia & Pacific",
+        "income_group": "Lower middle income",
+        "index": 26.63,
+        "components": {
+          "researchers_per_million": 38.78,
+          "tertiary_ger": 21.87,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 18.81
+        },
+        "imputed": {
+          "tertiary_ger": true,
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 33.2,
+        "researchers_year": 2016
+      },
+      "POL": {
+        "name": "Poland",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 80.82,
+        "components": {
+          "researchers_per_million": 90.16,
+          "tertiary_ger": 80.91,
+          "tertiary_completion": 45.39,
+          "internet_users_pct": 88.58
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 3675.1,
+        "researchers_year": 2023
+      },
+      "PRI": {
+        "name": "Puerto Rico (US)",
+        "region": "Latin America & Caribbean",
+        "income_group": "High income",
+        "index": 67.82,
+        "components": {
+          "researchers_per_million": 63.8,
+          "tertiary_ger": 77.93,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 87.29
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 332.4,
+        "researchers_year": 2015
+      },
+      "PRT": {
+        "name": "Portugal",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 83.05,
+        "components": {
+          "researchers_per_million": 95.52,
+          "tertiary_ger": 77.68,
+          "tertiary_completion": 51.46,
+          "internet_users_pct": 88.49
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5983.3,
+        "researchers_year": 2023
+      },
+      "PRY": {
+        "name": "Paraguay",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 51.4,
+        "components": {
+          "researchers_per_million": 54.26,
+          "tertiary_ger": 37.62,
+          "tertiary_completion": 26.5,
+          "internet_users_pct": 81.58
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 138.8,
+        "researchers_year": 2023
+      },
+      "PSE": {
+        "name": "West Bank and Gaza",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Lower middle income",
+        "index": 61.4,
+        "components": {
+          "researchers_per_million": 69.99,
+          "tertiary_ger": 44.49,
+          "tertiary_completion": 33.01,
+          "internet_users_pct": 86.64
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 584.4,
+        "researchers_year": 2013
+      },
+      "QAT": {
+        "name": "Qatar",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "High income",
+        "index": 61.6,
+        "components": {
+          "researchers_per_million": 75.29,
+          "tertiary_ger": 43.02,
+          "tertiary_completion": 7.42,
+          "internet_users_pct": 98.09
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 947.8,
+        "researchers_year": 2021
+      },
+      "ROU": {
+        "name": "Romania",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 68.41,
+        "components": {
+          "researchers_per_million": 76.74,
+          "tertiary_ger": 55.17,
+          "tertiary_completion": 37.77,
+          "internet_users_pct": 91.29
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1082.1,
+        "researchers_year": 2023
+      },
+      "RUS": {
+        "name": "Russian Federation",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 77.27,
+        "components": {
+          "researchers_per_million": 86.53,
+          "tertiary_ger": 60.39,
+          "tertiary_completion": 57.91,
+          "internet_users_pct": 94.36
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2638.6,
+        "researchers_year": 2024
+      },
+      "RWA": {
+        "name": "Rwanda",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 31.09,
+        "components": {
+          "researchers_per_million": 53.8,
+          "tertiary_ger": 9.41,
+          "tertiary_completion": 5.86,
+          "internet_users_pct": 31.7
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 133.1,
+        "researchers_year": 2023
+      },
+      "SAU": {
+        "name": "Saudi Arabia",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "High income",
+        "index": 78.4,
+        "components": {
+          "researchers_per_million": 78.19,
+          "tertiary_ger": 83.88,
+          "tertiary_completion": 41.0,
+          "internet_users_pct": 100.0
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1234.7,
+        "researchers_year": 2024
+      },
+      "SEN": {
+        "name": "Senegal",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 45.65,
+        "components": {
+          "researchers_per_million": 69.76,
+          "tertiary_ger": 15.33,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 60.12
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 572.4,
+        "researchers_year": 2015
+      },
+      "SGP": {
+        "name": "Singapore",
+        "region": "East Asia & Pacific",
+        "income_group": "High income",
+        "index": 91.16,
+        "components": {
+          "researchers_per_million": 99.73,
+          "tertiary_ger": 97.29,
+          "tertiary_completion": 53.79,
+          "internet_users_pct": 94.38
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 8781.7,
+        "researchers_year": 2022
+      },
+      "SLV": {
+        "name": "El Salvador",
+        "region": "Latin America & Caribbean",
+        "income_group": "Upper middle income",
+        "index": 41.25,
+        "components": {
+          "researchers_per_million": 44.3,
+          "tertiary_ger": 32.83,
+          "tertiary_completion": 13.48,
+          "internet_users_pct": 66.48
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 55.5,
+        "researchers_year": 2023
+      },
+      "SRB": {
+        "name": "Serbia",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 73.41,
+        "components": {
+          "researchers_per_million": 86.73,
+          "tertiary_ger": 70.58,
+          "tertiary_completion": 23.59,
+          "internet_users_pct": 87.69
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2687.5,
+        "researchers_year": 2024
+      },
+      "SVK": {
+        "name": "Slovak Republic",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 72.68,
+        "components": {
+          "researchers_per_million": 89.65,
+          "tertiary_ger": 54.47,
+          "tertiary_completion": 34.93,
+          "internet_users_pct": 89.83
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 3506.6,
+        "researchers_year": 2023
+      },
+      "SVN": {
+        "name": "Slovenia",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 83.23,
+        "components": {
+          "researchers_per_million": 94.82,
+          "tertiary_ger": 80.08,
+          "tertiary_completion": 47.53,
+          "internet_users_pct": 90.76
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 5616.3,
+        "researchers_year": 2023
+      },
+      "SWE": {
+        "name": "Sweden",
+        "region": "Europe & Central Asia",
+        "income_group": "High income",
+        "index": 86.05,
+        "components": {
+          "researchers_per_million": 99.89,
+          "tertiary_ger": 84.0,
+          "tertiary_completion": 39.89,
+          "internet_users_pct": 95.53
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 8910.7,
+        "researchers_year": 2023
+      },
+      "SWZ": {
+        "name": "Eswatini",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 35.97,
+        "components": {
+          "researchers_per_million": 54.19,
+          "tertiary_ger": 6.44,
+          "tertiary_completion": 0.0,
+          "internet_users_pct": 63.4
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 137.9,
+        "researchers_year": 2015
+      },
+      "SYC": {
+        "name": "Seychelles",
+        "region": "Sub-Saharan Africa",
+        "income_group": "High income",
+        "index": 44.28,
+        "components": {
+          "researchers_per_million": 54.85,
+          "tertiary_ger": 14.53,
+          "tertiary_completion": 7.62,
+          "internet_users_pct": 87.82
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 146.5,
+        "researchers_year": 2005
+      },
+      "SYR": {
+        "name": "Syrian Arab Republic",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Low income",
+        "index": 41.14,
+        "components": {
+          "researchers_per_million": 54.35,
+          "tertiary_ger": 43.76,
+          "tertiary_completion": 11.36,
+          "internet_users_pct": 33.77
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 139.9,
+        "researchers_year": 2022
+      },
+      "TCD": {
+        "name": "Chad",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 21.5,
+        "components": {
+          "researchers_per_million": 44.54,
+          "tertiary_ger": 4.4,
+          "tertiary_completion": 0.36,
+          "internet_users_pct": 12.63
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 56.7,
+        "researchers_year": 2016
+      },
+      "TGO": {
+        "name": "Togo",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 30.29,
+        "components": {
+          "researchers_per_million": 44.74,
+          "tertiary_ger": 14.9,
+          "tertiary_completion": 5.14,
+          "internet_users_pct": 39.48
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 57.8,
+        "researchers_year": 2024
+      },
+      "THA": {
+        "name": "Thailand",
+        "region": "East Asia & Pacific",
+        "income_group": "Upper middle income",
+        "index": 65.61,
+        "components": {
+          "researchers_per_million": 80.98,
+          "tertiary_ger": 44.98,
+          "tertiary_completion": 25.32,
+          "internet_users_pct": 90.87
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1592.0,
+        "researchers_year": 2023
+      },
+      "TTO": {
+        "name": "Trinidad and Tobago",
+        "region": "Latin America & Caribbean",
+        "income_group": "High income",
+        "index": 50.41,
+        "components": {
+          "researchers_per_million": 68.12,
+          "tertiary_ger": 23.85,
+          "tertiary_completion": 5.09,
+          "internet_users_pct": 82.16
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 492.7,
+        "researchers_year": 2022
+      },
+      "TUN": {
+        "name": "Tunisia",
+        "region": "Middle East, North Africa, Afghanistan & Pakistan",
+        "income_group": "Lower middle income",
+        "index": 61.14,
+        "components": {
+          "researchers_per_million": 81.49,
+          "tertiary_ger": 38.12,
+          "tertiary_completion": 24.75,
+          "internet_users_pct": 76.5
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 1667.6,
+        "researchers_year": 2024
+      },
+      "TUR": {
+        "name": "Turkiye",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 82.23,
+        "components": {
+          "researchers_per_million": 86.55,
+          "tertiary_ger": 100.0,
+          "tertiary_completion": 34.34,
+          "internet_users_pct": 87.31
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 2644.7,
+        "researchers_year": 2023
+      },
+      "TZA": {
+        "name": "Tanzania",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 20.53,
+        "components": {
+          "researchers_per_million": 33.07,
+          "tertiary_ger": 4.02,
+          "tertiary_completion": 0.45,
+          "internet_users_pct": 31.16
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 19.3,
+        "researchers_year": 2013
+      },
+      "UGA": {
+        "name": "Uganda",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Low income",
+        "index": 22.62,
+        "components": {
+          "researchers_per_million": 48.44,
+          "tertiary_ger": 4.62,
+          "tertiary_completion": 2.02,
+          "internet_users_pct": 8.95
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 81.3,
+        "researchers_year": 2023
+      },
+      "UKR": {
+        "name": "Ukraine",
+        "region": "Europe & Central Asia",
+        "income_group": "Upper middle income",
+        "index": 70.27,
+        "components": {
+          "researchers_per_million": 70.02,
+          "tertiary_ger": 87.19,
+          "tertiary_completion": 26.5,
+          "internet_users_pct": 82.47
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 586.1,
+        "researchers_year": 2022
+      },
+      "URY": {
+        "name": "Uruguay",
+        "region": "Latin America & Caribbean",
+        "income_group": "High income",
+        "index": 73.82,
+        "components": {
+          "researchers_per_million": 75.17,
+          "tertiary_ger": 79.95,
+          "tertiary_completion": 35.75,
+          "internet_users_pct": 91.99
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 937.6,
+        "researchers_year": 2024
+      },
+      "USA": {
+        "name": "United States",
+        "region": "North America",
+        "income_group": "High income",
+        "index": 81.92,
+        "components": {
+          "researchers_per_million": 93.41,
+          "tertiary_ger": 79.36,
+          "tertiary_completion": 38.49,
+          "internet_users_pct": 94.69
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 4937.5,
+        "researchers_year": 2022
+      },
+      "UZB": {
+        "name": "Uzbekistan",
+        "region": "Europe & Central Asia",
+        "income_group": "Lower middle income",
+        "index": 62.11,
+        "components": {
+          "researchers_per_million": 70.97,
+          "tertiary_ger": 56.52,
+          "tertiary_completion": 11.26,
+          "internet_users_pct": 89.51
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 639.5,
+        "researchers_year": 2024
+      },
+      "VNM": {
+        "name": "Viet Nam",
+        "region": "East Asia & Pacific",
+        "income_group": "Lower middle income",
+        "index": 59.11,
+        "components": {
+          "researchers_per_million": 73.91,
+          "tertiary_ger": 37.59,
+          "tertiary_completion": 22.15,
+          "internet_users_pct": 84.15
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 836.1,
+        "researchers_year": 2023
+      },
+      "ZAF": {
+        "name": "South Africa",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Upper middle income",
+        "index": 49.98,
+        "components": {
+          "researchers_per_million": 66.98,
+          "tertiary_ger": 23.49,
+          "tertiary_completion": 10.94,
+          "internet_users_pct": 78.36
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 444.2,
+        "researchers_year": 2022
+      },
+      "ZMB": {
+        "name": "Zambia",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 22.81,
+        "components": {
+          "researchers_per_million": 41.28,
+          "tertiary_ger": 3.96,
+          "tertiary_completion": 12.61,
+          "internet_users_pct": 17.1
+        },
+        "imputed": {
+          "tertiary_completion": true
+        },
+        "researchers_per_million_raw": 41.9,
+        "researchers_year": 2008
+      },
+      "ZWE": {
+        "name": "Zimbabwe",
+        "region": "Sub-Saharan Africa",
+        "income_group": "Lower middle income",
+        "index": 30.51,
+        "components": {
+          "researchers_per_million": 50.14,
+          "tertiary_ger": 7.75,
+          "tertiary_completion": 1.28,
+          "internet_users_pct": 41.64
+        },
+        "imputed": {},
+        "researchers_per_million_raw": 95.1,
+        "researchers_year": 2012
+      }
+    },
+    "n_with_anchor": 142,
+    "n_without_anchor": 75,
+    "without_anchor_iso": [
+      "ABW",
+      "AFG",
+      "AND",
+      "ATG",
+      "BEN",
+      "BGD",
+      "BHS",
+      "BLZ",
+      "BMU",
+      "BRB",
+      "CAF",
+      "CHI",
+      "CMR",
+      "COM",
+      "CUW",
+      "CYM",
+      "DJI",
+      "DMA",
+      "ERI",
+      "FJI",
+      "FSM",
+      "GAB",
+      "GIB",
+      "GIN",
+      "GNB",
+      "GNQ",
+      "GRD",
+      "GUY",
+      "HTI",
+      "IMN",
+      "ISR",
+      "JAM",
+      "KGZ",
+      "KIR",
+      "KNA",
+      "LBN",
+      "LBR",
+      "LBY",
+      "LCA",
+      "MAF",
+      "MDV",
+      "MHL",
+      "MNP",
+      "MRT",
+      "NCL",
+      "NIC",
+      "NRU",
+      "PER",
+      "PLW",
+      "PRK",
+      "PYF",
+      "REU",
+      "SDN",
+      "SLB",
+      "SLE",
+      "SMR",
+      "SOM",
+      "SSD",
+      "STP",
+      "SUR",
+      "SXM",
+      "TCA",
+      "TJK",
+      "TKM",
+      "TLS",
+      "TON",
+      "TUV",
+      "TWN",
+      "VCT",
+      "VGB",
+      "VIR",
+      "VUT",
+      "WSM",
+      "XKX",
+      "YEM"
+    ],
+    "imputed_component_counts": {
+      "researchers_per_million": 0,
+      "tertiary_ger": 6,
+      "tertiary_completion": 23,
+      "internet_users_pct": 1
+    },
+    "weights": {
+      "researchers_per_million": 0.4,
+      "tertiary_ger": 0.25,
+      "tertiary_completion": 0.15,
+      "internet_users_pct": 0.2
+    },
+    "rpm_log_cap": 9000.0
+  },
+  "ranked_top15": [
+    {
+      "iso": "KOR",
+      "name": "Korea, Rep.",
+      "index": 92.35,
+      "income_group": "High income",
+      "researchers_per_million_raw": 9471.8
+    },
+    {
+      "iso": "FIN",
+      "name": "Finland",
+      "index": 92.17,
+      "income_group": "High income",
+      "researchers_per_million_raw": 8314.9
+    },
+    {
+      "iso": "SGP",
+      "name": "Singapore",
+      "index": 91.16,
+      "income_group": "High income",
+      "researchers_per_million_raw": 8781.7
+    },
+    {
+      "iso": "AUS",
+      "name": "Australia",
+      "index": 91.04,
+      "income_group": "High income",
+      "researchers_per_million_raw": 4568.6
+    },
+    {
+      "iso": "NOR",
+      "name": "Norway",
+      "index": 90.89,
+      "income_group": "High income",
+      "researchers_per_million_raw": 7450.6
+    },
+    {
+      "iso": "MAC",
+      "name": "Macao SAR, China",
+      "index": 90.67,
+      "income_group": "High income",
+      "researchers_per_million_raw": 4634.1
+    },
+    {
+      "iso": "DNK",
+      "name": "Denmark",
+      "index": 88.02,
+      "income_group": "High income",
+      "researchers_per_million_raw": 8837.5
+    },
+    {
+      "iso": "NLD",
+      "name": "Netherlands",
+      "index": 87.39,
+      "income_group": "High income",
+      "researchers_per_million_raw": 6563.3
+    },
+    {
+      "iso": "GRC",
+      "name": "Greece",
+      "index": 86.7,
+      "income_group": "High income",
+      "researchers_per_million_raw": 5283.4
+    },
+    {
+      "iso": "SWE",
+      "name": "Sweden",
+      "index": 86.05,
+      "income_group": "High income",
+      "researchers_per_million_raw": 8910.7
+    },
+    {
+      "iso": "AUT",
+      "name": "Austria",
+      "index": 86.02,
+      "income_group": "High income",
+      "researchers_per_million_raw": 6633.6
+    },
+    {
+      "iso": "BEL",
+      "name": "Belgium",
+      "index": 85.36,
+      "income_group": "High income",
+      "researchers_per_million_raw": 5990.1
+    },
+    {
+      "iso": "HKG",
+      "name": "Hong Kong SAR, China",
+      "index": 85.26,
+      "income_group": "High income",
+      "researchers_per_million_raw": 5873.7
+    },
+    {
+      "iso": "ESP",
+      "name": "Spain",
+      "index": 85.1,
+      "income_group": "High income",
+      "researchers_per_million_raw": 3653.8
+    },
+    {
+      "iso": "ISL",
+      "name": "Iceland",
+      "index": 84.65,
+      "income_group": "High income",
+      "researchers_per_million_raw": 5952.5
+    }
+  ],
+  "ranked_bottom15": [
+    {
+      "iso": "NGA",
+      "name": "Nigeria",
+      "index": 26.36,
+      "income_group": "Lower middle income",
+      "researchers_per_million_raw": 22.1
+    },
+    {
+      "iso": "AGO",
+      "name": "Angola",
+      "index": 25.67,
+      "income_group": "Lower middle income",
+      "researchers_per_million_raw": 18.9
+    },
+    {
+      "iso": "BFA",
+      "name": "Burkina Faso",
+      "index": 25.35,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 46.6
+    },
+    {
+      "iso": "MLI",
+      "name": "Mali",
+      "index": 23.9,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 26.0
+    },
+    {
+      "iso": "GTM",
+      "name": "Guatemala",
+      "index": 23.47,
+      "income_group": "Upper middle income",
+      "researchers_per_million_raw": 1.4
+    },
+    {
+      "iso": "MOZ",
+      "name": "Mozambique",
+      "index": 23.34,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 44.4
+    },
+    {
+      "iso": "ZMB",
+      "name": "Zambia",
+      "index": 22.81,
+      "income_group": "Lower middle income",
+      "researchers_per_million_raw": 41.9
+    },
+    {
+      "iso": "UGA",
+      "name": "Uganda",
+      "index": 22.62,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 81.3
+    },
+    {
+      "iso": "TCD",
+      "name": "Chad",
+      "index": 21.5,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 56.7
+    },
+    {
+      "iso": "MDG",
+      "name": "Madagascar",
+      "index": 21.34,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 32.9
+    },
+    {
+      "iso": "TZA",
+      "name": "Tanzania",
+      "index": 20.53,
+      "income_group": "Lower middle income",
+      "researchers_per_million_raw": 19.3
+    },
+    {
+      "iso": "NER",
+      "name": "Niger",
+      "index": 19.41,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 26.9
+    },
+    {
+      "iso": "MWI",
+      "name": "Malawi",
+      "index": 18.89,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 25.2
+    },
+    {
+      "iso": "BDI",
+      "name": "Burundi",
+      "index": 17.72,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 22.5
+    },
+    {
+      "iso": "COD",
+      "name": "Congo, Dem. Rep.",
+      "index": 16.88,
+      "income_group": "Low income",
+      "researchers_per_million_raw": 10.1
+    }
+  ],
+  "concentration": {
+    "absolute_capacity_method": "researchers_per_million x SP.POP.TOTL (latest); ESTIMATED researcher headcount per country.",
+    "n_countries_in_capacity": 142,
+    "total_estimated_researchers": 11537941,
+    "top1_share_pct": 25.7,
+    "top5_share_pct": 54.9,
+    "top10_share_pct": 69.3,
+    "top25_share_pct": 87.3,
+    "top10_countries": [
+      {
+        "iso": "CHN",
+        "name": "China",
+        "researchers_est": 2969090,
+        "share_pct": 25.73
+      },
+      {
+        "iso": "USA",
+        "name": "United States",
+        "researchers_est": 1679296,
+        "share_pct": 14.55
+      },
+      {
+        "iso": "JPN",
+        "name": "Japan",
+        "researchers_est": 695332,
+        "share_pct": 6.03
+      },
+      {
+        "iso": "DEU",
+        "name": "Germany",
+        "researchers_est": 494925,
+        "share_pct": 4.29
+      },
+      {
+        "iso": "KOR",
+        "name": "Korea, Rep.",
+        "researchers_est": 490177,
+        "share_pct": 4.25
+      },
+      {
+        "iso": "RUS",
+        "name": "Russian Federation",
+        "researchers_est": 378723,
+        "share_pct": 3.28
+      },
+      {
+        "iso": "IND",
+        "name": "India",
+        "researchers_est": 376174,
+        "share_pct": 3.26
+      },
+      {
+        "iso": "FRA",
+        "name": "France",
+        "researchers_est": 368028,
+        "share_pct": 3.19
+      },
+      {
+        "iso": "GBR",
+        "name": "United Kingdom",
+        "researchers_est": 309626,
+        "share_pct": 2.68
+      },
+      {
+        "iso": "CAN",
+        "name": "Canada",
+        "researchers_est": 232218,
+        "share_pct": 2.01
+      }
+    ],
+    "gini_researchers_per_million": 0.646,
+    "median_researchers_per_million": 707.1,
+    "max_researchers_per_million": 18129.8,
+    "min_researchers_per_million": 1.4
+  },
+  "gender": {
+    "tertiary_ger_by_sex_real": {
+      "source": "World Bank SE.TER.ENRR.FE / .MA (latest per country).",
+      "world_female_mean": 52.4,
+      "world_male_mean": 39.3,
+      "world_female_minus_male": 13.1,
+      "by_income": {
+        "High income": {
+          "female_tertiary_ger": 80.1,
+          "male_tertiary_ger": 58.2,
+          "female_minus_male": 21.9,
+          "n_countries_female": 72
+        },
+        "Upper middle income": {
+          "female_tertiary_ger": 57.3,
+          "male_tertiary_ger": 41.5,
+          "female_minus_male": 15.8,
+          "n_countries_female": 52
+        },
+        "Lower middle income": {
+          "female_tertiary_ger": 23.6,
+          "male_tertiary_ger": 20.4,
+          "female_minus_male": 3.3,
+          "n_countries_female": 45
+        },
+        "Low income": {
+          "female_tertiary_ger": 8.9,
+          "male_tertiary_ger": 11.1,
+          "female_minus_male": -2.2,
+          "n_countries_female": 22
+        }
+      },
+      "note": "Tertiary GROSS enrollment by sex; in aggregate women now out-enroll men in tertiary in most regions, yet hold a minority of RESEARCH posts -- the leak is post-degree."
+    },
+    "women_researchers_pct": {
+      "source": "UNESCO UIS Women in Science fact sheet (documented anchors, latest ~2021-2023). NOT a clean World Bank series.",
+      "estimated": true,
+      "by_region": {
+        "World": 33.3,
+        "Central Asia": 48.2,
+        "Latin America & Caribbean": 45.8,
+        "Central & Eastern Europe": 39.6,
+        "Arab States": 41.5,
+        "Sub-Saharan Africa": 31.5,
+        "North America & Western Eur": 32.9,
+        "East Asia & Pacific": 23.9,
+        "South & West Asia": 18.5
+      },
+      "world": 33.3
+    },
+    "women_graduate_share_by_field": {
+      "source": "UNESCO 'Cracking the code' / UIS graduate shares by field (documented anchors).",
+      "estimated": true,
+      "by_field": {
+        "Health & Welfare": 69.0,
+        "Education": 67.0,
+        "Arts & Humanities": 64.0,
+        "Social sciences / Business / Law": 58.0,
+        "Natural sciences / Math / Stats": 52.0,
+        "ICT (computing)": 21.0,
+        "Engineering / Manufacturing": 28.0
+      }
+    }
+  },
+  "rural_urban_wealth": {
+    "source": "UNESCO GEM Report / World Inequality Database on Education (WIDE), DHS-backed. Documented anchors (DHS microdata not in cache).",
+    "estimated": true,
+    "tertiary_completion_richest_vs_poorest_quintile_lic_lmic": {
+      "richest_quintile_pct": 9.0,
+      "poorest_quintile_pct": 0.5,
+      "ratio": "~18x",
+      "note": "In low/lower-middle income countries, tertiary completion is near-universally a top-wealth-quintile phenomenon."
+    },
+    "primary_completion_urban_vs_rural_low_income": {
+      "urban_pct": 70.0,
+      "rural_pct": 45.0,
+      "gap_pct_points": 25.0,
+      "note": "Rural children in low-income countries complete primary at far lower rates -- the gap compounds up every depth rung."
+    }
+  },
+  "regional": {
+    "East Asia & Pacific": {
+      "n_countries": 38,
+      "n_with_researcher_data": 21,
+      "coverage_pct": 55.0,
+      "mean_frontier_index": 64.6,
+      "mean_researchers_per_million": 2494.8
+    },
+    "Europe & Central Asia": {
+      "n_countries": 58,
+      "n_with_researcher_data": 49,
+      "coverage_pct": 84.0,
+      "mean_frontier_index": 77.1,
+      "mean_researchers_per_million": 3877.9
+    },
+    "Latin America & Caribbean": {
+      "n_countries": 41,
+      "n_with_researcher_data": 18,
+      "coverage_pct": 44.0,
+      "mean_frontier_index": 56.8,
+      "mean_researchers_per_million": 500.6
+    },
+    "Middle East, North Africa, Afghanistan & Pakistan": {
+      "n_countries": 23,
+      "n_with_researcher_data": 17,
+      "coverage_pct": 74.0,
+      "mean_frontier_index": 62.1,
+      "mean_researchers_per_million": 1099.5
+    },
+    "North America": {
+      "n_countries": 3,
+      "n_with_researcher_data": 2,
+      "coverage_pct": 67.0,
+      "mean_frontier_index": 81.9,
+      "mean_researchers_per_million": 5280.9
+    },
+    "South Asia": {
+      "n_countries": 6,
+      "n_with_researcher_data": 4,
+      "coverage_pct": 67.0,
+      "mean_frontier_index": 42.4,
+      "mean_researchers_per_million": 162.4
+    },
+    "Sub-Saharan Africa": {
+      "n_countries": 48,
+      "n_with_researcher_data": 31,
+      "coverage_pct": 65.0,
+      "mean_frontier_index": 31.2,
+      "mean_researchers_per_million": 129.9
+    }
+  },
+  "research_atlas_crosscheck": {
+    "research_atlas_corpus_persons": 1438636,
+    "note": "research-atlas finding: all top-25 funded orgs are US/elite institutions -- the org-level mirror of this country-level concentration."
+  },
+  "headline": {
+    "n_real_countries": 217,
+    "n_with_researcher_data": 142,
+    "n_without_researcher_data": 75,
+    "pct_countries_without_researcher_data": 35.0,
+    "top10_share_of_frontier_capacity_pct": 69.3,
+    "top25_share_of_frontier_capacity_pct": 87.3,
+    "gini_researchers_per_million": 0.646,
+    "women_researchers_world_pct": 33.3,
+    "women_researchers_min_region": [
+      "South & West Asia",
+      18.5
+    ],
+    "max_vs_min_researchers_per_million_ratio": 12950.0
+  },
+  "estimates": {
+    "frontier_access_index": "Composite 0-100 = weighted mean of REAL World Bank components (researchers/M log-scaled, tertiary GER, tertiary completion, internet). Weights are DOCUMENTED (0.40/0.25/0.15/0.20), not tuned. Non-anchor gaps mean-imputed within income group (flagged per country under .imputed).",
+    "concentration": "Absolute capacity = researchers/M x SP.POP.TOTL = an ESTIMATED researcher headcount per country (both series REAL). Top-share and Gini computed on that estimate.",
+    "women_researchers_pct": "UNESCO UIS Women in Science -- DOCUMENTED ANCHORS, not a World Bank series.",
+    "tertiary_ger_by_sex": "REAL World Bank SE.TER.ENRR.FE / .MA, latest per country.",
+    "rural_urban_wealth": "UNESCO GEM/WIDE + DHS -- DOCUMENTED ANCHORS (DHS microdata not in cache)."
+  },
+  "sources": {
+    "researchers_per_million": "World Bank / UNESCO UIS SP.POP.SCIE.RD.P6 (per-country, latest available; cached in data/raw/worldbank/).",
+    "tertiary_ger": "World Bank SE.TER.ENRR.",
+    "tertiary_completion": "World Bank SE.TER.CMPL.ZS (first-degree graduation ratio).",
+    "internet_users": "World Bank IT.NET.USER.ZS (individuals using the internet).",
+    "tertiary_ger_by_sex": "World Bank SE.TER.ENRR.FE / SE.TER.ENRR.MA.",
+    "population": "World Bank SP.POP.TOTL (for absolute capacity).",
+    "women_in_science": "UNESCO Institute for Statistics, Women in Science fact sheet.",
+    "rural_urban_wealth": "UNESCO GEM Report / WIDE database (DHS-backed).",
+    "research_atlas": "research-atlas research_atlas_slim.duckdb (corpus cross-check)."
+  }
+}
