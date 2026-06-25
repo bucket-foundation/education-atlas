@@ -1,0 +1,41 @@
+{
+  "title": "The Knowledge-Access Gradient: who can reach how deep into human knowledge, at what age, at what cost — and what that means for reforming education",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "<p>The flagship synthesis of the education-atlas corpus. It consolidates the project's quantitative problem atlas, four structural deep-dives, four neutral foundations briefs, four solution-landscape briefs, and reproducible access analyses into one argument about the shape of knowledge access worldwide.</p><p>The central finding: the world built a broad, shallow base of education and a thin, gated, unequal peak. Measured against UN SDG 4, three stacked crises persist — learning (48.3% of 10-year-olds cannot read a simple text; 86.5% in Sub-Saharan Africa), access (51M primary and 61M lower-secondary children out of school), and financing (3.6% of GDP, below the 4% floor). But the deepest inequity is on the depth axis, not the access axis. Laying knowledge access on a grid of age x depth (L0 basic literacy through L5 producing new knowledge), world access falls ~270x from undergraduate (37.4%) to the research frontier (0.14%), the rich-poor gap widens from under 2x at literacy to ~75x at the frontier, and about 99.86% of humanity only ever consumes knowledge while ~0.14% ever reaches the place where it is produced. Five expansion dimensions (cost, field, time, continuity, latency) show the binding constraint is production, not consumption: a free path exists to READ the frontier but none to PRODUCE there; coverage is wildly uneven across fields (biomedicine has ~133x more researchers than mathematics); reading is democratizing while production is flat; the pipeline leaks worst at the undergraduate-to-graduate step; and a learner faces ~13 gates to read the frontier and ~18 to produce there, 11 structural.</p><p>The synthesis traces the causes (the industrial sorting model; a gatekeeping political economy in which academic publishers earn ~38% margins on donated labor; the omitted capacities of learning-to-learn, the body, and the ceiling on the ablest), but carries the corpus's foundations layer into the argument: what education is FOR is an irreducible, contested value question with no single cross-civilizational answer, and sorting, credentialing, and socialization are legitimate functions. Any reform is therefore a value choice and is stated as one. The evidence on what works (Teaching at the Right Level, tutoring ~0.37 SD, metacognition; learning styles null) and the white-space analysis converge on the L3-to-L4-to-L5 region as the highest-leverage place to expand access to advanced knowledge specifically. Bucket Foundation's open-knowledge thesis is named as one defensible choice among the contested aims and is honestly bounded: it does not fix K-12 funding, teacher pay, or the access and learning emergency in poor states.</p><p>Every headline number is traceable to World Bank EdStats, UNESCO UIS, OECD PISA, ITU, OpenAlex/research-atlas, or the peer-reviewed learning-science literature; constructed scales and estimated cells are flagged throughout. Part of Bucket Foundation's founding research for its education-reform mission. CC-BY-4.0.</p>",
+  "creators": [
+    { "name": "Dichio, Gianangelo", "affiliation": "Bucket Foundation" },
+    { "name": "Bucket Foundation" }
+  ],
+  "keywords": [
+    "education",
+    "knowledge access",
+    "SDG 4",
+    "learning poverty",
+    "research frontier",
+    "open access",
+    "open knowledge",
+    "academic publishing",
+    "education reform",
+    "metascience",
+    "philosophy of education",
+    "what works in education",
+    "data science",
+    "World Bank EdStats",
+    "UNESCO UIS",
+    "OpenAlex"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "communities": [
+    { "identifier": "open-science" }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isPartOf",
+      "identifier": "education-atlas",
+      "resource_type": "dataset"
+    }
+  ]
+}

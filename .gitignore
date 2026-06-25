@@ -10,8 +10,9 @@ data/raw/
 data/processed/*.parquet
 !data/processed/sample/*.parquet
 
-# Rendered report PDF (rebuilt from docs/EDUCATION_PROBLEMS.md by weasyprint)
+# Rendered report PDFs (rebuilt from the markdown source by weasyprint)
 docs/EDUCATION_PROBLEMS.pdf
+docs/THE-KNOWLEDGE-ACCESS-GRADIENT.pdf
 
 # Secrets / env -- never commit
 .env
