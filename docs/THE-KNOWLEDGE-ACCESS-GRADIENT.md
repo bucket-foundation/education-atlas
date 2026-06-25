@@ -2,65 +2,98 @@
 
 ### Who can reach how deep into human knowledge, at what age, at what cost — and what that means for reforming education
 
-*education-atlas — the flagship synthesis. Gianangelo Dichio · Bucket Foundation · 2026-06-24.*
+*education-atlas — the flagship synthesis. v1.1. Gianangelo Dichio · Bucket Foundation · 2026-06-25.*
 
 *This document consolidates the entire education-atlas corpus — the quantitative
 problem atlas (`docs/EDUCATION_PROBLEMS.md`), the four structural deep-dives
 (`docs/deep/01–04`), the four neutral foundations briefs (`docs/foundations/01–04`),
-the four landscape briefs (`docs/landscape/01–04`), the reform thesis
+the seven landscape briefs (`docs/landscape/01–07`), the reform thesis
 (`docs/REFORM_THESIS.md`), and the reproducible analyses behind
-`analysis/landscape/results.json` and `results_expansion.json` — into one
-argument. Every headline number is traceable to one of those sources or to the
+`analysis/landscape/results.json`, `results_expansion.json`,
+`results_geographic.json`, and `results_historical.json` — into one argument.
+Version 1.1 adds the three dimensions the corpus gained after v1.0 — the
+**historical access arc** across 5,000 years (`docs/landscape/06`), the
+**geographic map** of frontier capacity (`docs/landscape/05`), and the
+**modality axis** of how knowledge is acquired (`docs/landscape/07`) — woven into
+the argument as its spine, its cross-section, and its mechanism rather than
+appended. Every headline number is traceable to one of those sources or to the
 authoritative custodians they cite (World Bank EdStats, UNESCO UIS, OECD PISA,
-ITU, OpenAlex/research-atlas, and the peer-reviewed learning-science literature).
-Where a figure is constructed or estimated rather than measured, it is flagged as
-such — the same evidence discipline the corpus holds throughout.*
+ITU, OpenAlex/research-atlas, the economic-history literature on print and
+literacy, and the peer-reviewed learning-science literature). Where a figure is
+constructed or estimated rather than measured, it is flagged as such — the same
+evidence discipline the corpus holds throughout.*
 
 ---
 
 ## Abstract
 
-The world has spent two centuries building a broad, shallow base of education and
-almost none of a deep one. Measured against UN Sustainable Development Goal 4, the
-record shows three stacked crises — a **learning** crisis (48.3% of 10-year-olds
-worldwide cannot read a simple text; 86.5% in Sub-Saharan Africa), an **access**
-crisis that has shrunk but moved up a level (51M primary-age and 61M
+For five thousand years, every knowledge technology widened access to *consume*
+knowledge — to read, learn, and reach what others already discovered — and **none
+widened access to *produce* it.** Writing gave knowledge an external store but gated
+it to a literate elite; the printing press collapsed the cost of a copy by orders of
+magnitude (book prices fell ~⅔ in fifty years, output rose ~10⁴ per century) and lit
+the Reformation and the Scientific Revolution, but amplified who could be *read*, not
+who could *originate*; public libraries and mass schooling carried literacy from ~12%
+in 1820 to ~88% today — the largest consume-access expansion in history by headcount —
+while the modern university *enclosed* production behind a credential; the internet
+drove the cost of a copy to zero and open access finally extended reading all the way
+to the research frontier, and still the rate at which humanity *produces* new knowledge
+held near ~0.14%. That arc is the organizing finding of this document. The present-day
+**access cliff is the cross-section of it.** Measured against UN Sustainable Development
+Goal 4, today's record shows three stacked crises — a **learning** crisis (48.3% of
+10-year-olds worldwide cannot read a simple text; 86.5% in Sub-Saharan Africa), an
+**access** crisis that has shrunk but moved up a level (51M primary-age and 61M
 lower-secondary-age children out of school), and a **financing** crisis underwriting
-both (world education spend is 3.6% of GDP, below the agreed 4% floor, with 92 of
-~200 countries beneath it). But the deepest inequity is not visible in the access
-statistics at all. When we lay knowledge access on a grid of **age × depth** — from
-basic literacy (L0) up through undergraduate (L2), graduate (L3), reading the research
-frontier (L4), and producing new knowledge (L5) — access does not fall gently. It
-falls off a cliff down the depth axis: world access runs **82.5% at L0 → 37.4% at L2
-→ 0.14% at L4 → 0.06% at L5**, a ~270× drop from undergraduate to the frontier, and
-the rich-poor gap widens from under 2× at literacy to ~75× at the frontier. About
-**99.86% of humanity only ever consumes knowledge; ~0.14% ever reaches the place where
-it is produced.** The shape of that gradient has five expansion dimensions, and they
-agree: the cost curve is bimodal (a free path exists to *read* but none to *produce*),
-field coverage is wildly uneven (biomedicine has ~133× more researchers than
-mathematics), the temporal trend is democratizing reading but not production, the
-pipeline leaks worst at the undergraduate-to-graduate step, and a learner faces ~13
-gates to read the frontier and ~18 to produce there, 11 of them structural barriers
-effort alone cannot pass. The causes are structural: an industrial schooling model
-built to *sort* rather than teach, a gatekeeping political economy in which academic
-publishers earn ~38% margins on donated labor selling publicly funded work back to the
-public, and a system that omits the highest-leverage capacities (learning-to-learn,
-the body, the ceiling on the ablest). Yet the corpus's foundations layer insists on a
-hard caveat that the data cannot override: **what education is *for* is an irreducible,
-contested value question** — there is no single cross-civilizational definition of an
-educated person, and sorting, credentialing, and socialization are legitimate
-functions, not merely pathologies. So any reform is a value choice and must be stated
-as one. The evidence on what works points to structured, human-mediated levers
-(Teaching at the Right Level, tutoring at ~0.37 SD, metacognition) and against folk
-theory (learning styles is null). The highest-leverage region for the *specific* goal
-of opening advanced knowledge is the L3→L4→L5 zone: the comprehension bridge from
-established knowledge to the frontier, an author-routed production economics, and
-non-institutional, any-age frontier access. Bucket Foundation's open-knowledge thesis
-is named here as **one defensible choice among the contested aims** — honestly bounded:
-it does not fix K-12 funding, teacher pay, or the access and learning emergency in poor
-states. The one-sentence finding: the world built a broad shallow base and a thin,
-gated, unequal peak, and the deepest inequity and the emptiest market both sit at the
-top — at frontier access and the ability to produce knowledge.
+both (world education spend is 3.6% of GDP, below the agreed 4% floor, with 92 of ~200
+countries beneath it). But the deepest inequity is not visible in the access statistics
+at all. Laid on a grid of **age × depth** — basic literacy (L0) up through undergraduate
+(L2), graduate (L3), reading the frontier (L4), producing new knowledge (L5) — access
+falls off a cliff down the depth axis: **82.5% at L0 → 37.4% at L2 → 0.14% at L4 → 0.06%
+at L5**, a ~270× drop from undergraduate to the frontier, the rich-poor gap widening from
+under 2× at literacy to ~75× at the frontier. About **99.86% of humanity only ever
+consumes knowledge; ~0.14% ever reaches the place where it is produced.** Seven
+dimensions then describe the gradient's shape, and they converge. The **historical** arc
+(above) gives the spine: consume-access an unbroken staircase up, produce-access flat at
+every step. The five **structural** dimensions agree: cost is bimodal (a free path exists
+to *read* but none to *produce*), field coverage is wildly uneven (biomedicine has ~133×
+more researchers than mathematics), the temporal trend democratizes reading not
+production, the pipeline leaks worst at the undergraduate-to-graduate step, and a learner
+faces ~13 gates to read the frontier and ~18 to produce there, 11 of them structural
+barriers effort alone cannot pass. The **geographic** dimension shows the frontier is a
+near-monopoly: the top-10 countries hold **69.3%** of the world's estimated researcher
+capacity, **35% of countries (75 of 217) have no researcher datapoint at all**,
+researcher intensity has a Gini of **0.646**, and — the sharpest equity signal — women
+now *out-enroll* men into university worldwide (+13 points) yet hold only ~33% of research
+posts, so the pipeline leaks *post-degree*, between the diploma and the lab. The
+**modality** dimension explains the gap *mechanically*: every scalable channel
+(informal/open, self-directed) ceilings out below the frontier, the one channel that
+reliably reaches production (apprenticeship, the lab) cannot scale, and that empty
+"scalable-and-production-reaching" cell **is** the consume-versus-produce gap. The causes
+are structural: an industrial schooling model built to *sort* rather than teach, a
+gatekeeping political economy in which academic publishers earn ~38% margins on donated
+labor selling publicly funded work back to the public, and a system that omits the
+highest-leverage capacities (learning-to-learn, the body, the ceiling on the ablest). Yet
+the corpus's foundations layer insists on a hard caveat the data cannot override: **what
+education is *for* is an irreducible, contested value question** — there is no single
+cross-civilizational definition of an educated person, and sorting, credentialing, and
+socialization are legitimate functions, not merely pathologies. So any reform is a value
+choice and must be stated as one. The evidence on what works points to structured,
+human-mediated levers (Teaching at the Right Level, tutoring at ~0.37 SD, metacognition)
+and against folk theory (learning styles is null). The highest-leverage region for the
+*specific* goal of opening advanced knowledge is the L3→L4→L5 zone: the comprehension
+bridge from established knowledge to the frontier, an author-routed production economics,
+and non-institutional, any-age frontier access — restated by the modality data as the
+prize that has never existed, *the first channel that scales all the way to production*.
+**AI is the first technology in the entire 5,000-year arc — and the first modality — for
+which the consume-versus-produce verdict is not yet written**; the number to watch is
+whether the produce-access rate moves. Bucket Foundation's open-knowledge thesis is named
+here as **one defensible choice among the contested aims** — honestly bounded: it does not
+fix K-12 funding, teacher pay, or the access and learning emergency in poor states. The
+one-sentence finding: for five thousand years the world widened reading and never
+widened producing, building a broad shallow base and a thin, gated, unequal peak — and the
+deepest inequity, the emptiest market, and the one place the historical pattern might
+finally break all sit in the same corner, at frontier access and the ability to produce
+knowledge.
 
 ---
 
@@ -104,6 +137,64 @@ fund pre-K and lifelong learning. If it is depth (how far up the ladder you can 
 you attack the cliff. If it is income (who can buy depth), you attack the gradient. The
 rest of this document shows the binding constraint is depth, bought by income, gated by
 institutions — and then asks, honestly, what a foundation can and cannot do about it.
+
+### 1.1 The 5,000-year spine: every knowledge technology widened reading, none widened producing
+
+Before the cross-section, the arc — because the present-day cliff is a single frame of a
+film that has been running for five thousand years, and the film tells one story
+(`docs/landscape/06`). Read end to end, the history of knowledge *technology* resolves
+into a single, almost unbroken pattern:
+
+> **Every prior technology widened access to *consume* knowledge — to read, learn, and
+> reach what others had already discovered. None widened access to *produce* it — to
+> originate, validate, and add to the frontier.**
+
+The ledger is consistent across every era. **Oral tradition** stored knowledge in living
+memory: access was in one sense universal within the group but capped by the lifespan of
+that memory, and neither consuming nor producing *scaled*. **Writing** (~3200 BCE) created
+the first external store — knowledge could now persist and travel — but literacy stayed in
+the low single digits and a hand-copied codex cost a craftsman's annual income, so reading
+widened only *slightly* and producing narrowed to scribes and cloisters; the medieval
+university (Bologna ~1088) professionalized scholarship and built the first version of the
+credential gate still standing at L3–L5 today. **The printing press** (~1440) is the
+canonical case and the hinge of the whole arc: between 1450 and 1500 the real price of a
+book fell by roughly two-thirds (≈ −2.4%/yr for a century; Dittmar 2011, *QJE*), output
+rose by about *four orders of magnitude* per century (Buringh & van Zanden 2009, *JEH*),
+printing cities grew ~60% faster than comparable non-printing cities (1500–1600), and the
+press became the diffusion layer of the Reformation and a precondition for the Scientific
+Revolution — yet it did almost nothing for *who could originate*: an author still needed
+literacy, a press, and a patron. A giant jump in consume-access; a negligible one in
+produce-access. **Public libraries and mass schooling** (19th c.) took literacy from about
+**12% in 1820 — fewer than 100 million people alive could read — to about 88% in 2024**,
+over five billion people (Our World in Data, on Buringh & van Zanden + UNESCO), the single
+largest consume-access expansion in history by headcount; but the same century *enclosed*
+production behind the professionalized PhD, widening the pool while hardening the gate.
+**The internet and Wikipedia** (1990s–) drove the marginal cost of a copy to zero
+(penetration 0 → ~68% online, ~5.5B people) and put the bulk of reference knowledge in
+front of anyone with a connection — abundance of reading; produce-access at the frontier
+unmoved. **Open access and preprints** (2000s–) are the most important entry of all,
+because they are the first technology to push consume-access all the way to **L4 — reading
+the primary research frontier itself** (open-access share of new papers quadrupled 12% →
+54%, 2000–2024) — and *still* produce-access did not move: the rent simply relocated to the
+author side as article-processing charges (*Nature*'s OA APC on the order of $12,850), so
+open access excludes poor *authors* where subscriptions excluded poor *readers*.
+
+The consume column is an unbroken staircase up; the produce column is flat — gated,
+narrowed, or unchanged — at every step. This is the same consume-versus-produce distinction
+the L4/L5 split encodes, extended from a cross-section into a thesis about technological
+history, and it is the spine on which everything below hangs.
+
+![The 5,000-year access arc — every prior technology widened consume-access; produce-access stayed flat; AI is the open question](../analysis/landscape/figures/fig_access_arc.png)
+
+The present tense is the last two frames. **AI in the 2020s is the first entry in the
+entire arc where an honest analyst cannot yet sign the verdict** — it might be the most
+powerful reading-amplifier ever built and nothing more (the prior, given five thousand
+years of the pattern holding), or it might be the first technology that lets a
+non-institutional person *do* research rather than only consume it. §6 returns to this as
+the reform question; the number that decides it is whether the produce-access rate of
+~0.14% ever moves. With the spine in place, the rest of this document is the cross-section
+of the arc's final frame: where the cliff is *today*, what shape it has across seven
+dimensions, why it is shaped that way, and what — honestly — can be done about it.
 
 ---
 
@@ -214,11 +305,16 @@ one person in seven hundred, and which person depends overwhelmingly on income.*
 
 ---
 
-## 3. The shape of the gradient: five dimensions of the cliff
+## 3. The shape of the gradient: the dimensions of the cliff
 
-The base map says *where* the cliff is. Five expansion dimensions
-(`analysis/landscape/results_expansion.json`, `docs/landscape/03`) say *what shape* it
-has — and together they relocate the binding constraint from consumption to production.
+The base map says *where* the cliff is. The historical arc (§1.1) already said *when* and
+gave the spine. The remaining dimensions say *what shape* the present-day cliff has — and
+every one of them relocates the binding constraint from consumption to production, the
+same verdict the arc delivers across time. Five **structural** dimensions
+(`analysis/landscape/results_expansion.json`, `docs/landscape/03`) describe the cliff's
+cost, field, temporal, continuity, and latency shape (§3.1–3.5); a **geographic**
+dimension (`results_geographic.json`, `docs/landscape/05`) maps *where on Earth* the
+frontier capacity sits and who is shut out (§3.6).
 
 ### 3.1 Cost: bimodal — free to read, no free path to produce
 
@@ -323,13 +419,77 @@ leaks worst.
 
 ![Latency: 13 gates to read the frontier, 18 to produce, 11 structural](../analysis/landscape/figures/fig_gatekeepers.png)
 
-**The expansion headline:** the base map said depth is the binding constraint and income
-buys it; the expansion says the binding constraint, properly stated, is *production, not
-consumption*. Reaching the floor and reading the frontier both now have a $0 path and
-are democratizing over time. Producing knowledge has no free path, is wildly uneven
-across fields, leaks worst at the L2→L3 step, and sits behind 18 gates. **Consuming the
-frontier is getting free and easy; producing it remains gated, expensive, and
-STEM-concentrated.**
+### 3.6 Geographic: the frontier is a near-monopoly held by a handful of countries
+
+The five structural dimensions say *what shape* the cliff has; they cannot say *where on
+Earth* its top sits. The geographic dimension does (`docs/landscape/05`,
+`analysis/landscape/results_geographic.json`), pulling the same UNESCO/World Bank
+**researchers-per-million** anchor doc 02 used as a tier mean (`SP.POP.SCIE.RD.P6`) into a
+real per-country map, and the picture is a near-monopoly.
+
+First, the **coverage finding**, which is the most honest result in the layer because it is
+what's *missing*: of **217 real countries, only 142 have any researcher-per-million
+datapoint at all — 75 countries, 35% of the world, have NONE.** These are overwhelmingly
+low- and lower-middle-income, in Sub-Saharan Africa, small island states, and
+conflict-affected regions. The absence is not noise — it *is* the finding: a country with no
+measured research capacity is one whose frontier participation is so thin (or whose
+statistical capacity is so weak) that the world's flagship R&D indicator has no value for
+it. Every low-income number in this synthesis is therefore an upper bound on a darker
+reality.
+
+Second, the **concentration**. Estimating each country's absolute frontier capacity as
+researchers/M × population (both real series; the product is an estimated headcount) across
+the ~142 data-carrying countries gives ~11.5 million researchers, and it is hoarded:
+
+| Group | Share of world's estimated researcher capacity |
+|---|---|
+| Top 1 (China) | 25.7% |
+| Top 5 (China, US, Japan, Germany, Korea) | 54.9% |
+| **Top 10** | **69.3%** |
+| Top 25 | 87.3% |
+
+**China and the United States alone hold ~40%.** The top-10 countries hold roughly
+seven-tenths of the world's frontier capacity; the top-25 hold almost nine-tenths. A Lorenz
+curve of researchers/M gives a **Gini of 0.646** across 142 countries — research intensity
+is more unequally distributed than income is within most countries — with a **~13,000× span**
+from the most to least research-intensive country and a **composite frontier-access index
+running 92 (Korea) to 17 (DR Congo)**. By region, **Sub-Saharan Africa averages an index of
+31 against Europe's 77** — less than half — and its researcher intensity averages ~130/M
+against North America's ~5,280/M. The concentration is *fractal*: the research-atlas
+org-level mirror finds all top-25 funded research organizations are US/elite institutions,
+so the country-level near-monopoly repeats at the institution level.
+
+![The frontier has a geography: a near-monopoly of researcher capacity, 75 countries off the map](../analysis/landscape/figures/fig_geo_concentration.png)
+
+Third, the **gender cut**, which sharpens the continuity finding of §3.4. Women now
+**out-enroll men into university nearly everywhere** — world mean female tertiary enrollment
+52.4% vs male 39.3%, **+13.1 points** (real World Bank `SE.TER.ENRR.FE/.MA`), the advantage
+*widening* with income and flipping negative only in low-income countries (−2.2 pts). Yet
+women hold only about **33% of research posts** globally (UNESCO UIS Women in Science anchor),
+as low as **18.5% in South & West Asia** and **21% in computing**. So the leak is not at the
+classroom door — women enter higher education in equal or greater numbers — it is
+**post-degree, between the diploma and the lab.** That is the same L2→L3→L4 leak §3.4
+quantified, now seen through gender: the pipeline's worst loss is at exactly the transition
+into the frontier, and women are routed out of it after they have already won the degree.
+
+This geographic shell sits *outside* the depth cliff: inside each shut-out country the same
+gradient repeats by wealth and place (in low/lower-middle-income countries tertiary
+completion is ~9% of the richest quintile vs ~0.5% of the poorest — an ~18× gap inside one
+country; UNESCO GEM/WIDE anchor). The frontier is reached by a few countries, and within
+them, unevenly by gender, wealth, and location. *(Researchers/M, tertiary, internet, and
+female/male enrollment are real per-country World Bank series; the composite index uses
+documented weights; absolute capacity is an estimate; women-in-research and wealth/rural
+figures are documented UNESCO anchors — full ledger in `docs/landscape/05` §7.)*
+
+**The dimensional headline:** the base map said depth is the binding constraint and income
+buys it; the dimensions say the binding constraint, properly stated, is *production, not
+consumption*. Reaching the floor and reading the frontier both now have a $0 path and are
+democratizing over time. Producing knowledge has no free path, is wildly uneven across
+fields, leaks worst at the L2→L3 step, sits behind 18 gates, is geographically a
+near-monopoly (top-10 countries ~69%, 75 countries off the map entirely, Gini 0.646), and
+leaks women out *after* the degree. **Consuming the frontier is getting free and easy;
+producing it remains gated, expensive, STEM-concentrated, and held by a handful of
+countries.**
 
 ---
 
@@ -551,6 +711,71 @@ shadow libraries) and the open plumbing (OpenAlex, ORCID, OER cost savings >$1.5
 untouched) and did **not** win the last mile (access is not the same as the ability to
 *understand* and *use* what is now reachable).
 
+### 6.2a The modality lens: why the prize is the channel that has never existed
+
+The white-space map says the empty cells are at the top. The **modality** dimension
+(`docs/landscape/07`) says *why* they are empty and *what kind* of thing would fill them —
+by adding the channel axis: not *where* the cliff is or *who* occupies a cell, but *through
+what channel* a learner climbs at all, and how far each channel can carry them. Five
+modalities, ordered most-scalable to least: **formal** (school→university→grad),
+**informal/open** (MOOCs, YouTube, Wikipedia, OER), **self-directed** (books, the open web),
+**apprenticeship** (the advisor, the lab), and **AI-mediated** (tutors, research agents).
+Each has a *ceiling* on the L0–L5 ladder past which it cannot, in practice, carry a learner.
+
+Two facts off the modality table are load-bearing. First, **the credential column and the
+L5 column are the same column**: every channel that confers a recognized credential reaches
+production, and every channel that does not, does not — because the credential is the
+*mechanism* that opens the next institutional gate (admission, affiliation, funding) the
+18-gate stack enumerates. Second, and decisively, **reach and production-reach are inversely
+related.** The informal/open channel reaches enormous numbers — Coursera alone 168M
+registered learners, ~220M MOOC enrollments, YouTube ~2.5B users (~51% using it to learn) —
+but ceilings hard at **L2–L3**: MOOC completion runs a median of ~12.6% (most courses
+3–15%), no informal product carries a learner across the L3→L4 comprehension bridge, and the
+ceiling is the *nature of the channel*, not a quality failure. The self-directed channel has
+the highest theoretical ceiling (the open web plus open access reaches L4 in principle) and
+one of the lowest realized ones, because the autodidact-to-frontier cases that built the
+canon (Faraday, Ramanujan) almost always contain a hidden *apprenticeship* — and the
+structural gates have only risen since. Apprenticeship — the advisor, the lab — is the mirror
+image: the only channel that *reliably* reaches production (it transfers the tacit knowledge
+broadcast and self-study cannot; Bloom's "2 sigma" is the upper bound, ~0.25–0.37 SD the
+durable figure), and it **cannot scale**, because the supply of L5-capable mentors is bounded
+by the existing L5 population.
+
+This is the load-bearing tension, and it draws the consume-versus-produce gap as a single
+empty cell:
+
+| | Scalable (reaches 10⁸–10⁹) | Does not scale (10⁵–10⁶) |
+|---|---|---|
+| **Reaches production (L5)** | *empty — the historic impossibility* | Apprenticeship / the lab |
+| **Ceilings below production** | Informal/open, self-directed, (AI today) | Formal's failed-funnel majority |
+
+The top-left cell — a channel that is *both* scalable *and* production-reaching — **has been
+empty for all of recorded history.** That empty cell *is* the consume-versus-produce gap: the
+reason 99.86% only consume is that the only channels reaching most people stop at
+consumption, and the only channel reaching production cannot reach most people. (Formal
+education is the partial exception only because it bolts a scalable front end onto an
+apprenticeship back end and pays for it by shedding 99.9% of entrants before the back end —
+the §3.4 funnel.)
+
+![Modality × depth-reach: the channels that scale ceiling out before production; the one that reaches production does not scale](../analysis/landscape/figures/fig_modality_reach.png)
+
+**AI is the first serious candidate to fill that empty cell** — natively scalable (marginal
+cost ~$0, reach ~10⁹) and the only modality that attacks *both* of the autodidact's missing
+pieces at once: the comprehension bridge (as tutor) and the tacit production layer (as
+research agent). The evidence is exactly as two-sided as §1.1's open verdict: a 2025 Harvard
+physics RCT found an *engineered* AI tutor produced ~0.73–1.3 SD over active-learning control
+but over two weeks, 194 students, middle-order skills; Stanford's *Tutor CoPilot* (a
+human-AI system, >700 tutors) found a more modest +4 pp. Read against the ~0.3 SD bar for
+"substantial," AI today is a powerful **consumption amplifier** with a higher ceiling — which
+would make it the next informal/open channel and no more. The upside case is that research
+agents (Elicit, FutureHouse/Edison, autonomous science since 2024) perform enough of L5's
+*epistemic* work that production stops requiring a human mentor. But the model can only carry
+a learner to the *edge* of production; clearing the *non-epistemic* gates (affiliation,
+funding, peer review, APCs) is a question about institutions and economics — which is exactly
+why the highest-leverage move below pairs an AI comprehension bridge with an author-routed
+production economics. **The modality data says the prize is not more consumption reach — that
+cell is full — it is the scalable-production channel that has never existed.**
+
 The highest-leverage region for the *specific* aim of opening **advanced** knowledge is
 therefore the **L3→L4→L5 zone**, at the intersection of a won open-access asset, an unsolved
 gate, and a what-works mechanism:
@@ -616,39 +841,84 @@ A synthesis that overclaims is worse than none. The honest boundaries of this ev
   the finding, not a measured census), and cost anchors and many cited studies are
   US/OECD-centric — the *shape* generalizes, the exact numbers do not.
 - **The AI evidence is genuinely early.** LLM-tutor RCTs are short-term, often facilitated,
-  and single-context; the deskilling/cognitive-offloading studies are correlational or
-  small-n with methodological critiques. The corpus rates AI conditional, not solved, and so
-  does this synthesis.
+  and single-context (the strongest, Kestin et al. 2025, is two weeks, 194 students,
+  middle-order skills, an *engineered* tutor; Tutor CoPilot is human-AI, not AI-alone); the
+  deskilling/cognitive-offloading studies are correlational or small-n with methodological
+  critiques. The corpus rates AI conditional, not solved, and so does this synthesis — in
+  both the historical (§1.1) and modality (§6.2a) framings, the AI verdict is presented as a
+  two-sided open question, not a prediction.
 - **The continuity funnel is a cross-sectional presence curve, not tracked individuals**, and
   the gate inventory is a representative enumeration, not exhaustive.
+- **The historical arc's *verdicts* are interpretive.** The long-run series (literacy
+  12%→88% 1820–2024; book real-price collapse and output; internet and OA penetration) are
+  real cited anchors, but the consume-versus-produce reading *of each era* is the analysis's
+  interpretation, and the early absolute numbers are Europe/West-leaning (the Buringh & van
+  Zanden corpus is European) — the *shape* of the staircase generalizes, the early absolutes
+  do not. The 1950 literacy dip is a decolonization denominator artifact, not a true fall.
+- **The geographic layer rests on a data anchor that fails worst where access is worst.** The
+  75 "off the map" countries are the extreme of an indicator that under-measures weak
+  statistical systems, so the geographic concentration is if anything understated; absolute
+  capacity uses latest-available years that differ by country; the composite index weights
+  are a defensible choice, not a derived optimum (the *ranking* is robust to reweighting, the
+  absolute scores less so); and women-in-research and rural/wealth figures are cited
+  regional/global UNESCO anchors, not pulled per-country.
+- **The modality depth-ceilings are a constructed mapping.** Where each channel "tops out" on
+  the L0–L5 ladder is the project's interpretive judgment on the constructed `scale.py`
+  frame; the *reach* headcounts and *completion rates* are real and cited but measure
+  different things (cumulative registrations vs active users vs enrolled stock vs producing
+  headcount) and are used as orders of magnitude, not like-for-like. Real learners braid
+  channels; the table idealizes a *primary* channel for analytic clarity.
 
 ---
 
 ## 8. Conclusion
 
-The world built a broad, shallow base of education and a thin, gated, unequal peak. The
-base is a genuine achievement — near-universal primary access, 87.7% adult literacy — and
-the unsolved problems at the bottom (48% learning poverty, the secondary access edges, the
-financing floor) are real, larger by sheer scale, and the first moral priority. But the
-single steepest inequity in the entire record is not at the bottom. It is the depth cliff:
-access falls ~270× from undergraduate to the frontier, the rich-poor gap widens from under
-2× at literacy to ~75× at the frontier, no income tier's typical person reaches graduate
-depth, and **about 99.86% of humanity only ever consumes knowledge while ~0.14% ever
-reaches the place where it is produced.** Reading that frontier is finally getting free and
-democratizing; *producing* it remains gated behind 18 barriers, 11 of them structural, with
-no free on-ramp anywhere. The deepest inequity and the emptiest market sit in the same
-place — at frontier access and the ability to produce knowledge. Whether to close that gap,
-and how much it matters relative to the floor, is a value choice the data cannot make for
-us; but the data can say, without qualification, exactly where the gap is.
+For five thousand years the world widened access to *read* and never widened access to
+*produce*. The printing press, mass literacy, the internet, and open access each collapsed
+some barrier to consuming knowledge — and the rate at which humanity *produces* new
+knowledge held flat through all of it, near ~0.14%. The present-day cliff is the
+cross-section of that arc: a broad, shallow base of education and a thin, gated, unequal
+peak. The base is a genuine achievement — near-universal primary access, 87.7% adult
+literacy, the largest consume-access expansion in history by headcount — and the unsolved
+problems at the bottom (48% learning poverty, the secondary access edges, the financing
+floor) are real, larger by sheer scale, and the first moral priority. But the single
+steepest inequity in the entire record is not at the bottom. It is the depth cliff: access
+falls ~270× from undergraduate to the frontier, the rich-poor gap widens from under 2× at
+literacy to ~75× at the frontier, no income tier's typical person reaches graduate depth,
+and **about 99.86% of humanity only ever consumes knowledge while ~0.14% ever reaches the
+place where it is produced.** The newly mapped dimensions only sharpen the corner: the
+frontier is a geographic near-monopoly (top-10 countries hold 69.3% of researcher capacity,
+75 countries have no datapoint at all, Gini 0.646), it leaks women out *after* the degree,
+and — mechanically — it is gated because every channel that scales stops below production
+while the only channel that reaches production cannot scale, an empty cell that has stood
+for all of recorded history. Reading the frontier is finally getting free and democratizing;
+*producing* it remains gated behind 18 barriers, 11 of them structural, with no free on-ramp
+anywhere. The deepest inequity, the emptiest market, and the one place the five-thousand-year
+historical pattern *might* finally break all sit in the same place — at frontier access and
+the ability to produce knowledge — and **AI is the first technology, and the first modality,
+for which that verdict is not yet written; the number to watch is whether the produce-access
+rate moves.** Whether to close that gap, and how much it matters relative to the floor, is a
+value choice the data cannot make for us; but the data can say, without qualification,
+exactly where the gap is, where it sits on Earth, how it is built, and that for five
+thousand years it has never moved.
 
 ---
 
-*Sources: World Bank EdStats (CC-BY-4.0); UNESCO Institute for Statistics; OECD PISA 2022;
-Our World in Data; ITU Facts & Figures 2023; OpenAlex / research-atlas; NCES, NSF/NCSES, EPI,
-FREOPP, NSC; and the peer-reviewed learning-science literature cited across `docs/deep/01–04`,
-`docs/foundations/01–04`, and `docs/landscape/01–04`. Analysis files:
-`analysis/landscape/build_access.py`, `build_expansion.py`, `results.json`,
-`results_expansion.json`, and the nine figures in `analysis/landscape/figures/`. Every
-headline number is traceable to one of these. Reproduce: `python3 scripts/build_all.py` then
-`python3 scripts/findings.py`; the landscape analyses regenerate via
-`cd analysis/landscape && python3 build_access.py && python3 build_expansion.py && python3 make_figures.py && python3 make_figures_expansion.py`.*
+*Sources: World Bank EdStats (CC-BY-4.0); UNESCO Institute for Statistics (incl. Women in
+Science, GEM/WIDE); OECD PISA 2022; Our World in Data (incl. `cross-country-literacy-rates`);
+ITU Facts & Figures 2023; OpenAlex / research-atlas; the economic-history literature on print
+and literacy (Buringh & van Zanden 2009, *JEH* 69(2):409–445; Dittmar 2011, *QJE*
+126(3):1133–1172); NCES, NSF/NCSES, EPI, FREOPP, NSC; Coursera FY2024 results, Pew (2018),
+Open Praxis (2024), the Kestin et al. 2025 Harvard and Stanford Tutor CoPilot AI-tutor RCTs;
+and the peer-reviewed learning-science literature cited across `docs/deep/01–04`,
+`docs/foundations/01–04`, and `docs/landscape/01–07`. Analysis files:
+`analysis/landscape/build_access.py`, `build_expansion.py`, `build_geographic.py`,
+`build_historical.py`, `results.json`, `results_expansion.json`, `results_geographic.json`,
+`results_historical.json`, and the figures in `analysis/landscape/figures/` (the nine base +
+expansion figures plus `fig_access_arc.png`, `fig_literacy_longrun.png`, `fig_geo_*.png`, and
+`fig_modality_reach.png`). Every headline number is traceable to one of these. Reproduce:
+`python3 scripts/build_all.py` then `python3 scripts/findings.py`; the landscape analyses
+regenerate via `cd analysis/landscape && python3 build_access.py && python3 build_expansion.py
+&& python3 build_geographic.py && python3 build_historical.py && python3 make_figures.py &&
+python3 make_figures_expansion.py && python3 make_figures_geographic.py && python3
+make_figures_historical.py && python3 make_figures_modality.py`.*

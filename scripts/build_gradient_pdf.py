@@ -20,6 +20,26 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 SRC = REPO_ROOT / "docs" / "THE-KNOWLEDGE-ACCESS-GRADIENT.md"
 OUT = REPO_ROOT / "docs" / "THE-KNOWLEDGE-ACCESS-GRADIENT.pdf"
 
+# The full embedded figure set (relative to docs/, the markdown's base_url).
+# All are referenced inline in the markdown and resolved via base_url at render
+# time; this list is the authoritative manifest and a build-time existence check.
+# v1.1 (2026-06-25) added the last four: the historical arc + literacy long-run,
+# the geographic concentration map, and the modality reach chart.
+FIGURES = [
+    "../analysis/landscape/figures/fig_access_vs_age.png",
+    "../analysis/landscape/figures/fig_income_surface.png",
+    "../analysis/landscape/figures/fig_frontier_bar.png",
+    "../analysis/landscape/figures/fig_cost_surface.png",
+    "../analysis/landscape/figures/fig_depth_field.png",
+    "../analysis/landscape/figures/fig_temporal_trend.png",
+    "../analysis/landscape/figures/fig_continuity_funnel.png",
+    "../analysis/landscape/figures/fig_gatekeepers.png",
+    # v1.1 additions:
+    "../analysis/landscape/figures/fig_access_arc.png",        # §1.1 historical spine
+    "../analysis/landscape/figures/fig_geo_concentration.png", # §3.6 geographic
+    "../analysis/landscape/figures/fig_modality_reach.png",    # §6.2a modality
+]
+
 CSS = """
 @page { size: A4; margin: 2cm 2.2cm; @bottom-center {
   content: "The Knowledge-Access Gradient  ·  Bucket Foundation  ·  page " counter(page);
@@ -52,6 +72,11 @@ def main():
 
     import markdown  # tables + images via core
     from weasyprint import HTML, CSS as WCSS
+
+    # Existence check on the embedded figure manifest (resolved vs docs/).
+    missing = [f for f in FIGURES if not (SRC.parent / f).resolve().exists()]
+    if missing:
+        sys.exit(f"missing figures: {missing}")
 
     md = SRC.read_text(encoding="utf-8")
     body = markdown.markdown(md, extensions=["tables", "sane_lists"])

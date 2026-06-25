@@ -1,14 +1,17 @@
 {
   "title": "education-atlas: a data-grounded map of educational problems by country and level (against UN SDG 4)",
   "upload_type": "dataset",
-  "description": "<p>education-atlas ingests the world's authoritative education statistics into one normalized, validated, provenanced dataset and identifies educational problems by country and level, measured against UN Sustainable Development Goal 4 (Quality Education) benchmarks. This release reconciles 78,000+ observations across 219 countries, 30 indicators, and 9 problem categories (access, completion, learning outcomes, equity, financing, teachers, infrastructure, skills/NEET, digital divide) over all education levels (pre-primary, primary, lower/upper secondary, tertiary, TVET, adult literacy), drawn from World Bank EdStats, UNESCO UIS, Our World in Data, and OECD PISA 2022. Every observation carries source, source URL, and as-of provenance. A connector framework, a 14-check validation suite, a 0-100 problem-severity scoring engine (vs SDG 4 benchmarks, income-peer medians, and trend), and the founding synthesis report 'The Global Education Problem Landscape' are included. This is Bucket Foundation's founding research for its education-reform mission. MIT licensed (code); CC-BY-4.0 (data).</p>",
+  "version": "1.1",
+  "description": "<p>education-atlas ingests the world's authoritative education statistics into one normalized, validated, provenanced dataset and identifies educational problems by country and level, measured against UN Sustainable Development Goal 4 (Quality Education) benchmarks. This release reconciles 78,000+ observations across 219 countries, 30 indicators, and 9 problem categories (access, completion, learning outcomes, equity, financing, teachers, infrastructure, skills/NEET, digital divide) over all education levels (pre-primary, primary, lower/upper secondary, tertiary, TVET, adult literacy), drawn from World Bank EdStats, UNESCO UIS, Our World in Data, and OECD PISA 2022. Every observation carries source, source URL, and as-of provenance. A connector framework, a 14-check validation suite, a 0-100 problem-severity scoring engine (vs SDG 4 benchmarks, income-peer medians, and trend), and the flagship synthesis 'The Knowledge-Access Gradient' are included. The synthesis maps knowledge access on an age x depth ladder (L0 literacy through L5 producing new knowledge) and finds the deepest inequity is the depth cliff: world access falls ~270x from undergraduate to the research frontier, ~99.86% of humanity only ever consumes knowledge while ~0.14% reaches where it is produced. v1.1 weaves in three further dimensions: a 5,000-year historical access arc (every knowledge technology widened access to CONSUME knowledge; none widened access to PRODUCE it; AI is the first open question), a per-country geographic map of frontier capacity (top-10 countries hold 69.3%, 35% of countries have no researcher data, researcher-intensity Gini 0.646, women out-enroll men into university yet hold only ~33% of research posts so the pipeline leaks post-degree), and a modality axis showing the scalable channels ceiling out below production while the only production-reaching channel does not scale (that empty cell IS the consume-vs-produce gap). This is Bucket Foundation's founding research for its education-reform mission. MIT licensed (code); CC-BY-4.0 (data).</p>",
   "creators": [
     { "name": "Dichio, Gianangelo", "affiliation": "Bucket Foundation" }
   ],
   "keywords": [
     "education", "SDG 4", "quality education", "learning poverty",
     "out-of-school children", "education finance", "gender parity in education",
-    "PISA", "World Bank EdStats", "UNESCO UIS", "open data", "education reform"
+    "PISA", "World Bank EdStats", "UNESCO UIS", "open data", "education reform",
+    "open access", "research frontier", "knowledge production", "history of literacy",
+    "AI in education"
   ],
   "license": "mit",
   "access_right": "open",
