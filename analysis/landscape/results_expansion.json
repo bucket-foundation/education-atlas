@@ -1,0 +1,443 @@
+{
+  "meta": {
+    "title": "Knowledge-access map EXPANSION: cost, field, temporal, continuity, latency",
+    "extends": "results.json (same L0-L5 ladder + age bins from scale.py)",
+    "axes_are_constructed": true,
+    "depth_scale": {
+      "L0": "basic literacy/numeracy",
+      "L1": "K-12/secondary",
+      "L2": "undergraduate",
+      "L3": "graduate/professional",
+      "L4": "frontier / read primary research",
+      "L5": "producing new knowledge"
+    },
+    "note": "Five new dimensions over the same Age x Knowledge-depth grid. Real anchors flagged per dimension; estimates carry assumptions."
+  },
+  "cost_to_access": {
+    "cost_per_depth_usd": {
+      "L0": {
+        "low": 0,
+        "high": 0,
+        "midpoint": 0.0,
+        "note": "Public primary + free apps/library; ~$0 cash cost"
+      },
+      "L1": {
+        "low": 0,
+        "high": 15000,
+        "midpoint": 7500.0,
+        "note": "Free OER/public secondary ($0) vs US private K-12 ~$15k/yr"
+      },
+      "L2": {
+        "low": 0,
+        "high": 40000,
+        "midpoint": 20000.0,
+        "note": "Free-tuition systems / OCW ($0) vs US private undergrad ~$40k/yr; public in-state ~$11k"
+      },
+      "L3": {
+        "low": 12000,
+        "high": 60000,
+        "midpoint": 36000.0,
+        "note": "Public grad ~$12k/yr vs US professional (law/med/MBA) ~$60k/yr"
+      },
+      "L4": {
+        "low": 35,
+        "high": 12850,
+        "midpoint": 6442.0,
+        "note": "Per-paywalled-article ~$35-50; OA APC ~$2k avg, Nature 2026 APC = $12,850"
+      },
+      "L5": {
+        "low": 50000,
+        "high": 150000,
+        "midpoint": 100000.0,
+        "note": "Cost of doing research: ~one funded researcher-year direct cost (stipend+bench+overhead)"
+      }
+    },
+    "free_path_exists": {
+      "L0": 1,
+      "L1": 1,
+      "L2": 1,
+      "L3": 0,
+      "L4": 1,
+      "L5": 0
+    },
+    "cost_surface_age_depth_usd_midpoint": {
+      "L0": {
+        "0-5": 0.0,
+        "5-18": 0.0,
+        "18-22": 0.0,
+        "22-65": 0.0,
+        "65+": 0.0
+      },
+      "L1": {
+        "0-5": null,
+        "5-18": 7500.0,
+        "18-22": 7500.0,
+        "22-65": 7500.0,
+        "65+": 7500.0
+      },
+      "L2": {
+        "0-5": null,
+        "5-18": null,
+        "18-22": 20000.0,
+        "22-65": 20000.0,
+        "65+": 20000.0
+      },
+      "L3": {
+        "0-5": null,
+        "5-18": null,
+        "18-22": null,
+        "22-65": 36000.0,
+        "65+": 36000.0
+      },
+      "L4": {
+        "0-5": null,
+        "5-18": null,
+        "18-22": 6442.0,
+        "22-65": 6442.0,
+        "65+": 6442.0
+      },
+      "L5": {
+        "0-5": null,
+        "5-18": null,
+        "18-22": null,
+        "22-65": 100000.0,
+        "65+": 100000.0
+      }
+    }
+  },
+  "depth_by_field": {
+    "fields": {
+      "biomed-bio": {
+        "label": "Biomedicine / Biology",
+        "researchers": 689684,
+        "real": true
+      },
+      "earth-climate": {
+        "label": "Earth / Climate",
+        "researchers": 116840,
+        "real": true
+      },
+      "physics-astro": {
+        "label": "Physics / Astronomy",
+        "researchers": 108466,
+        "real": true
+      },
+      "engineering": {
+        "label": "Engineering",
+        "researchers": 93027,
+        "real": true
+      },
+      "cs-ml": {
+        "label": "Computer Science / ML",
+        "researchers": 44999,
+        "real": true
+      },
+      "materials": {
+        "label": "Materials Science",
+        "researchers": 44536,
+        "real": true
+      },
+      "econ-social": {
+        "label": "Economics / Social Sci",
+        "researchers": 42276,
+        "real": true
+      },
+      "chemistry": {
+        "label": "Chemistry",
+        "researchers": 20531,
+        "real": true
+      },
+      "math": {
+        "label": "Mathematics",
+        "researchers": 5198,
+        "real": true
+      },
+      "humanities": {
+        "label": "Humanities (history/philosophy/literature)",
+        "researchers": 1500,
+        "real": false
+      },
+      "arts": {
+        "label": "Arts / Performing arts",
+        "researchers": 500,
+        "real": false
+      },
+      "law-civics": {
+        "label": "Law / Civics",
+        "researchers": 1200,
+        "real": false
+      }
+    },
+    "depth_attenuation": {
+      "L0": 1.0,
+      "L1": 1.0,
+      "L2": 0.95,
+      "L3": 0.55,
+      "L4": 0.18,
+      "L5": 0.08
+    },
+    "served_score_field_x_depth": {
+      "biomed-bio": {
+        "L0": 1.0,
+        "L1": 1.0,
+        "L2": 0.95,
+        "L3": 0.55,
+        "L4": 0.18,
+        "L5": 0.08
+      },
+      "earth-climate": {
+        "L0": 0.4116,
+        "L1": 0.4116,
+        "L2": 0.391,
+        "L3": 0.2264,
+        "L4": 0.0741,
+        "L5": 0.0329
+      },
+      "physics-astro": {
+        "L0": 0.3966,
+        "L1": 0.3966,
+        "L2": 0.3767,
+        "L3": 0.2181,
+        "L4": 0.0714,
+        "L5": 0.0317
+      },
+      "engineering": {
+        "L0": 0.3673,
+        "L1": 0.3673,
+        "L2": 0.3489,
+        "L3": 0.202,
+        "L4": 0.0661,
+        "L5": 0.0294
+      },
+      "cs-ml": {
+        "L0": 0.2554,
+        "L1": 0.2554,
+        "L2": 0.2427,
+        "L3": 0.1405,
+        "L4": 0.046,
+        "L5": 0.0204
+      },
+      "materials": {
+        "L0": 0.2541,
+        "L1": 0.2541,
+        "L2": 0.2414,
+        "L3": 0.1398,
+        "L4": 0.0457,
+        "L5": 0.0203
+      },
+      "econ-social": {
+        "L0": 0.2476,
+        "L1": 0.2476,
+        "L2": 0.2352,
+        "L3": 0.1362,
+        "L4": 0.0446,
+        "L5": 0.0198
+      },
+      "chemistry": {
+        "L0": 0.1725,
+        "L1": 0.1725,
+        "L2": 0.1639,
+        "L3": 0.0949,
+        "L4": 0.0311,
+        "L5": 0.0138
+      },
+      "math": {
+        "L0": 0.0868,
+        "L1": 0.0868,
+        "L2": 0.0825,
+        "L3": 0.0477,
+        "L4": 0.0156,
+        "L5": 0.0069
+      },
+      "humanities": {
+        "L0": 0.0466,
+        "L1": 0.0466,
+        "L2": 0.0443,
+        "L3": 0.0256,
+        "L4": 0.0084,
+        "L5": 0.0037
+      },
+      "arts": {
+        "L0": 0.0269,
+        "L1": 0.0269,
+        "L2": 0.0256,
+        "L3": 0.0148,
+        "L4": 0.0048,
+        "L5": 0.0022
+      },
+      "law-civics": {
+        "L0": 0.0417,
+        "L1": 0.0417,
+        "L2": 0.0396,
+        "L3": 0.0229,
+        "L4": 0.0075,
+        "L5": 0.0033
+      }
+    },
+    "field_sizes_real": true,
+    "richest_field": "biomed-bio",
+    "thinnest_real_field": "math"
+  },
+  "temporal_trend": {
+    "global_oa_share_by_year_pct": {
+      "2000": 12.0,
+      "2005": 18.0,
+      "2010": 24.0,
+      "2013": 30.0,
+      "2015": 34.0,
+      "2017": 38.0,
+      "2019": 43.0,
+      "2021": 48.0,
+      "2023": 52.0,
+      "2024": 54.0
+    },
+    "internet_penetration_by_year_pct": {
+      "2000": 6.7,
+      "2005": 15.7,
+      "2010": 28.7,
+      "2013": 35.5,
+      "2015": 41.1,
+      "2017": 47.1,
+      "2019": 53.7,
+      "2021": 63.0,
+      "2023": 67.0,
+      "2024": 68.0
+    },
+    "frontier_tool_milestones": {
+      "1991": "arXiv launched (free preprints, physics)",
+      "2004": "Google Scholar",
+      "2008": "PMC public-access mandate (NIH)",
+      "2013": "bioRxiv (biology preprints)",
+      "2015": "Unpaywall / Semantic Scholar era begins",
+      "2022": "OpenAlex (474M works, CC0) + LLM research tools (Elicit/Consensus scale)",
+      "2024": "Autonomous science agents (FutureHouse PaperQA2 beats PhDs on lit review)"
+    },
+    "corpus_oa_share_by_year_pct": {
+      "2013": 89.2,
+      "2014": 82.6,
+      "2015": 80.7,
+      "2016": 83.6,
+      "2017": 84.2,
+      "2018": 85.7,
+      "2019": 90.7,
+      "2020": 92.5,
+      "2021": 91.7,
+      "2022": 91.4,
+      "2023": 93.1,
+      "2024": 93.5
+    },
+    "oa_growth_2000_2024": 42.0,
+    "oa_multiple_2000_2024": 4.5,
+    "internet_growth_2000_2024": 61.3,
+    "internet_multiple_2000_2024": 10.1
+  },
+  "continuity_funnel": {
+    "survivors_per_100_at_L0": {
+      "L0": 100.0,
+      "L1": 75.6061,
+      "L2": 45.303,
+      "L3": 9.7576,
+      "L4": 0.1704,
+      "L5": 0.0767
+    },
+    "adjacent_dropoff_per_100": {
+      "L0->L1": 24.3939,
+      "L1->L2": 30.3031,
+      "L2->L3": 35.5454,
+      "L3->L4": 9.5872,
+      "L4->L5": 0.0937
+    },
+    "biggest_dropoff": {
+      "transition": "L2->L3",
+      "people_lost_per_100": 35.5454
+    },
+    "conditional_transition_pct": {
+      "L0->L1": 75.61,
+      "L1->L2": 59.92,
+      "L2->L3": 21.54,
+      "L3->L4": 1.75,
+      "L4->L5": 45.02
+    },
+    "worst_conditional_transition": {
+      "transition": "L3->L4",
+      "pct_who_advance": 1.75
+    }
+  },
+  "latency_gates": {
+    "gates_per_level": {
+      "L0": 1,
+      "L1": 2,
+      "L2": 3,
+      "L3": 3,
+      "L4": 4,
+      "L5": 5
+    },
+    "gates_to_reach": {
+      "L0": [
+        "literacy instruction / a teacher or app"
+      ],
+      "L1": [
+        "school enrollment",
+        "years of attendance (compulsory schooling)"
+      ],
+      "L2": [
+        "secondary completion / diploma",
+        "admission (grades/exams)",
+        "tuition or funding"
+      ],
+      "L3": [
+        "bachelor's degree (prerequisite)",
+        "graduate admission (GRE/portfolio/refs)",
+        "graduate tuition or funded slot"
+      ],
+      "L4": [
+        "graduate-level training (to read primary literature)",
+        "institutional affiliation (for subscription access)",
+        "paywall / APC (to read or publish closed venues)",
+        "domain fluency (jargon, methods, statistics)"
+      ],
+      "L5": [
+        "a research position / PI or advisor",
+        "funding / grant",
+        "ethics & institutional approval",
+        "peer-review acceptance",
+        "publication cost (APC up to $12,850)"
+      ]
+    },
+    "cumulative_gate_count": {
+      "L0": 1,
+      "L1": 3,
+      "L2": 6,
+      "L3": 9,
+      "L4": 13,
+      "L5": 18
+    },
+    "gates_to_reach_L4": 13,
+    "gates_to_reach_L5": 18,
+    "structural_gates_to_L5": 11,
+    "note": "Cumulative gates from a standing start to each depth. L4/L5 gates include institutional affiliation and paywalls/APCs that effort alone cannot pass -- the structural latency to the frontier."
+  },
+  "base_world_access_by_depth": {
+    "L0": 82.5,
+    "L1": 62.375,
+    "L2": 37.375,
+    "L3": 8.05,
+    "L4": 0.1406,
+    "L5": 0.0633
+  },
+  "estimates": {
+    "cost_to_access": "Per-depth USD low/high are REAL cited 2024-2026 figures (US/OECD-leaning): private K-12 ~$15k, US private undergrad ~$40k, professional grad ~$60k, per-article paywall ~$35-50, Nature 2026 APC = $12,850, researcher-year direct cost ~$50-150k. The age x depth MIDPOINT surface is a derived summary (REAL anchors, ESTIMATED midpoint).",
+    "depth_by_field": "Field sizes = REAL researcher counts per field from research-atlas (researcher_segment). Humanities/arts/law sizes are DOCUMENTED PLACEHOLDERS (corpus is STEM-built; their near-absence is the finding). served_score = field size (real) ^0.5 x per-depth attenuation (ESTIMATED, shaped on the base-map frontier cliff).",
+    "temporal_trend": "Global OA share by year and internet penetration by year are REAL anchors (published bibliometrics; World Bank/ITU IT.NET.USER.ZS). Tool milestones are REAL dates. corpus_oa_share_by_year is the LOCAL corpus (REAL but OA-SELECTED, sits high -- corroboration only).",
+    "continuity_funnel": "Cohort survival = base-map world_access normalized to the L0 cohort. REAL for L0-L2, anchored for L3-L5. It is a survival/presence curve, NOT a measured longitudinal transition.",
+    "latency_gates": "Gate inventory is a STRUCTURED ENUMERATION of real, named barriers (enrollment, tuition, prerequisites, affiliation, paywall/APC, peer review). Counts are exact for the enumerated list; the list is representative, not exhaustive."
+  },
+  "sources": {
+    "field_sizes": "research-atlas research_atlas_slim.duckdb (researcher_segment).",
+    "corpus_oa": "research-atlas research_atlas_slim.duckdb (work_slim.is_oa by year).",
+    "global_oa": "Published OA bibliometrics (OpenAlex/Unpaywall/Curtin COKI; OA crossed ~50% of new articles early 2020s).",
+    "internet_penetration": "World Bank / ITU IT.NET.USER.ZS (% individuals using internet).",
+    "costs": "Cited 2024-2026 figures: Nature APC ($12,850, STAT 2026), US tuition (College Board), per-article paywalls (publisher sites).",
+    "base_surface": "build_access.py (World Bank EdStats + UNESCO UIS SP.POP.SCIE.RD.P6)."
+  }
+}
